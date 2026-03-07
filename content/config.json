@@ -1,5 +1,5 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Blog by Cedric Sarigumba",
   "url": "https://lumen.alxshelepenok.com",
   "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   "copyright": "© All rights reserved.",
@@ -21,7 +21,7 @@
     }
   ],
   "author": {
-    "title": "John Doe",
+    "title": "Cedric Sarigumba",
     "photo": "/logo.png",
     "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
     "contacts": [
