@@ -1,7 +1,7 @@
 {
   "title": "Blog by Cedric Sarigumba",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "url": "https://cedricsarigumba.com",
+  "description": "Welcome to my corner of the internet.",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "G-MSQGQG14PK",
   "pathPrefix": "/",
@@ -23,7 +23,7 @@
   "author": {
     "title": "Cedric Sarigumba",
     "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "description": "Welcome to my corner of the internet.",
     "contacts": [
       {
         "name": "github",
