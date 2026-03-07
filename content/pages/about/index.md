@@ -6,8 +6,10 @@ socialImage: "./image.jpg"
 
 Welcome to my corner of the internet!
 
-My name is Cedric Sarigumba and I'm a software engineer, a husband, and a dad. I like reading fantasy novels and am also very passionate about cycling.
+I'm **Cedric Sarigumba** — software engineer, husband, and dad. I've spent years helping teams build better systems and move faster.
 
-I like writing and sharing stuff I'm working on (when I'm not super busy). Take a look around! 😃
+I write about software engineering and the bigger lessons life has thrown at me. Not theory — stuff I've actually lived through. It took years of hard work and harder lessons to get here. If I can shorten that journey for even one person, it's worth writing about.
 
-I created this blog to give back to the community — it has taken a lot of experience, and a long journey, to get to where I am today. I want to share what I've learned along the way.
+When I'm not at my desk, you'll find me out cycling, on some adventure with my two sons and my wife — or quietly lost in a good book. 😄
+
+Take a look around — hope you find something useful.

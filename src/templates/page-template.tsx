@@ -38,9 +38,7 @@ export const query = graphql`
         title
         date
         description
-        socialImage {
-          publicURL
-        }
+        socialImage
       }
     }
   }
@@ -56,7 +54,7 @@ export const Head: FC<PageTemplateProps> = ({ data }) => {
       socialImage,
     },
   } = data.markdownRemark;
-  const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
+  const image = socialImage && url.concat(socialImage);
 
   return (
     <Meta
