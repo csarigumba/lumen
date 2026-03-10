@@ -4,9 +4,10 @@ import * as styles from "./post-footer.module.scss";
 
 interface PostFooterProps {
   date: string;
+  timeToRead: number;
 }
 
-const PostFooter: FC<PostFooterProps> = ({ date }) => (
+const PostFooter: FC<PostFooterProps> = ({ date, timeToRead }) => (
   <div className={styles.postFooter}>
     <p className={styles.date}>
       Published{" "}
@@ -15,6 +16,8 @@ const PostFooter: FC<PostFooterProps> = ({ date }) => (
         month: "short",
         day: "numeric",
       })}
+      {" "}&middot;{" "}
+      {timeToRead} min read
     </p>
   </div>
 );

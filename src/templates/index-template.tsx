@@ -51,6 +51,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          timeToRead
           fields {
             categorySlug
             slug

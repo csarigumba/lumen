@@ -15,7 +15,7 @@ interface PostProps {
 }
 
 const Post: FC<PostProps> = ({ post }) => {
-  const { html } = post;
+  const { html, timeToRead } = post;
   const { tagSlugs } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
@@ -29,7 +29,7 @@ const Post: FC<PostProps> = ({ post }) => {
         <PostContent body={html} title={title} />
       </div>
       <div className={styles.footer}>
-        <PostFooter date={date} />
+        <PostFooter date={date} timeToRead={timeToRead} />
         {tags && tagSlugs && <PostTags tags={tags} tagSlugs={tagSlugs} />}
         <PostAuthor />
       </div>
