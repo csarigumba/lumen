@@ -53,6 +53,11 @@
           font-size: variables.$typography-small-font-size;
         }
       }
+
+      .reading-time {
+        color: hsl(var(--color-muted-foreground));
+        font-size: variables.$typography-small-font-size;
+      }
     }
 
     .more {

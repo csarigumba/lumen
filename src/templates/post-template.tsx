@@ -27,6 +27,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      timeToRead
       fields {
         slug
         tagSlugs

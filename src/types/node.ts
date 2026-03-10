@@ -6,6 +6,7 @@ interface Node {
   html: string;
   fields: Fields;
   frontmatter: Frontmatter;
+  timeToRead: number;
 }
 
 export { type Node };
