@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Mar 2026 06:53:15 GMT</lastBuildDate><item><title><![CDATA[Why You Need a Personal Mission Statement]]></title><description><![CDATA[Are You Going Somewhere, or Just Busy?]]></description><link>https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</guid><pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most of us stay busy without asking why. Stephen Covey calls this out in Habit 2 of &lt;em&gt;The 7 Habits of Highly Effective People&lt;/em&gt;: Begin with the End in Mind. His answer to it is a personal mission statement.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 11 Mar 2026 01:20:49 GMT</lastBuildDate><item><title><![CDATA[How to Host an Almost Free Blog Site]]></title><description><![CDATA[Explaining the technology choices behind hosting a low-cost personal blog.]]></description><link>https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</guid><pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/57facc470c28d71405750dcc16e9fa82/c1b63/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABl0lEQVR42l2S3Y7TMBBGcwmp/2J77HESJ3HStGkFXKxWdAVabQtCCPYCBO//LthOuyCko5Fs6/ibkV0QaSi4CFGWCEMjlV0hlWHKVq7hdcu9530vpkFsg5hHMQc+9QUMoxwGFQL0gSsXeZFLDsq4uu8ldpVpKxvxK8L5JD+cv9x/uLy5e7g8/zg9fr57//g3WZiNBKhH246mDkxh2lf5VCOLcnc++W8fu6cTnu/lbuayJv/IcSj0k/Pb6HNo0lG8IgKOha54+vrz8vzr0/fffn73iiNJsiPiJiuj0Vu/lTgANlXdkgqpxJhMB1/odnHhLfij6Y+mOzDos49kbbsCmi5CJjMqm6vcNoXAnXBLZi/cTGEgyqfwNVlAqtUNadKjRLSl6AqKC8VDwu6p2VIIVHXX8CyXTL3mqhS6lFAqs9FmAxFLAAvqDtQdMweW/JHq2Hmzdp56FvYaLnOmQqIxVYUFi86VhdsdsxODjqqWSned8waVNnMbW9rCdAv4vW730MzW77Tf6naCZpSY/sb/WK/6oMdJ5eUf7j49jtIbxwwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/57facc470c28d71405750dcc16e9fa82/8ac56/image1.webp 240w,
+/static/57facc470c28d71405750dcc16e9fa82/d3be9/image1.webp 480w,
+/static/57facc470c28d71405750dcc16e9fa82/e46b2/image1.webp 960w,
+/static/57facc470c28d71405750dcc16e9fa82/92f8c/image1.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/57facc470c28d71405750dcc16e9fa82/8ff5a/image1.png 240w,
+/static/57facc470c28d71405750dcc16e9fa82/e85cb/image1.png 480w,
+/static/57facc470c28d71405750dcc16e9fa82/d9199/image1.png 960w,
+/static/57facc470c28d71405750dcc16e9fa82/c1b63/image1.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/57facc470c28d71405750dcc16e9fa82/d9199/image1.png&quot;
+            alt=&quot;How to Host an Almost Free Blog Site&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I wanted a blog that I actually owned. Not a Medium profile or a Dev.to account, but something on my terms.&lt;/p&gt;
+&lt;p&gt;Platforms like those are convenient, but they control the layout, the distribution, and sometimes even the visibility of your writing. If the platform changes its rules, your content is affected.&lt;/p&gt;
+&lt;p&gt;Running a full server for a personal blog, however, always felt like overkill. Hosting costs money, servers need maintenance, and configuring everything properly takes time.&lt;/p&gt;
+&lt;p&gt;So I looked for a simpler approach: something inexpensive, easy to maintain, and fully under my control.&lt;/p&gt;
+&lt;p&gt;Here’s the setup I ended up with.&lt;/p&gt;
+&lt;h2 id=&quot;hosting-github-pages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hosting-github-pages&quot; aria-label=&quot;hosting github pages permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hosting: GitHub Pages&lt;/h2&gt;
+&lt;p&gt;I chose GitHub Pages for hosting.&lt;/p&gt;
+&lt;p&gt;It’s free and works directly with a GitHub repository. Whenever I push changes to the main branch, the site rebuilds and updates automatically. GitHub Actions handles the build process, HTTPS is included, and the content is distributed through a CDN.&lt;/p&gt;
+&lt;p&gt;That means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No server to configure&lt;/li&gt;
+&lt;li&gt;No infrastructure to maintain&lt;/li&gt;
+&lt;li&gt;No deployment scripts to manage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everything lives in a Git repository, which also means every change is version-controlled. If I make a mistake or want to review an older version of a post, I can simply check the commit history.&lt;/p&gt;
+&lt;p&gt;The main limitation is that GitHub Pages only supports static sites. There’s no server-side logic or databases.&lt;/p&gt;
+&lt;p&gt;For a blog, that’s perfectly fine. Blog posts are mostly static content anyway.&lt;/p&gt;
+&lt;h2 id=&quot;site-generator-gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#site-generator-gatsby&quot; aria-label=&quot;site generator gatsby permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Site Generator: Gatsby&lt;/h2&gt;
+&lt;p&gt;To generate the site itself, I used Gatsby.&lt;/p&gt;
+&lt;p&gt;Gatsby is a static site generator built on React. Since I have experience working with React, using Gatsby meant the learning curve wasn’t too steep. I could focus on writing instead of learning a new framework.&lt;/p&gt;
+&lt;p&gt;Posts are written in Markdown files. Each article lives as a file in the repository, usually inside a &lt;code class=&quot;language-text&quot;&gt;posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;A typical workflow looks like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new Markdown file.&lt;/li&gt;
+&lt;li&gt;Write the post.&lt;/li&gt;
+&lt;li&gt;Commit and push to GitHub.&lt;/li&gt;
+&lt;li&gt;GitHub Pages rebuilds and publishes the site.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There’s no CMS, no dashboard, and no rich text editor. Everything happens inside a code editor.&lt;/p&gt;
+&lt;p&gt;For someone already comfortable with Git and Markdown, this workflow is simple and fast.&lt;/p&gt;
+&lt;p&gt;For the design, I started with a minimal Gatsby starter theme. The goal was to keep the layout clean and focused on the writing. No sidebars, no ads, no popups—just content.&lt;/p&gt;
+&lt;h2 id=&quot;dns-namecheap&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dns-namecheap&quot; aria-label=&quot;dns namecheap permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DNS: Namecheap&lt;/h2&gt;
+&lt;p&gt;The only real cost in this setup is the domain name.&lt;/p&gt;
+&lt;p&gt;I registered the domain through Namecheap. Domain prices typically range between $9 and $12 per year depending on the extension.&lt;/p&gt;
+&lt;p&gt;After purchasing the domain, the configuration is straightforward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Point the domain’s DNS records to GitHub Pages.&lt;/li&gt;
+&lt;li&gt;Add the domain to the repository settings.&lt;/li&gt;
+&lt;li&gt;Enable HTTPS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once configured, the site becomes accessible through the custom domain instead of the default GitHub Pages URL.&lt;/p&gt;
+&lt;h2 id=&quot;total-cost&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#total-cost&quot; aria-label=&quot;total cost permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Total Cost&lt;/h2&gt;
+&lt;p&gt;Most of the stack is completely free.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages: free hosting&lt;/li&gt;
+&lt;li&gt;Gatsby: open source&lt;/li&gt;
+&lt;li&gt;Starter theme: open source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The only expense is the domain name.&lt;/p&gt;
+&lt;p&gt;That puts the total cost of running the blog at roughly &lt;strong&gt;$9–$12 per year&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For that price, the blog is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast (static files served through a CDN)&lt;/li&gt;
+&lt;li&gt;Secure (automatic HTTPS)&lt;/li&gt;
+&lt;li&gt;Version-controlled (everything stored in Git)&lt;/li&gt;
+&lt;li&gt;Fully owned and portable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A simple setup that does exactly what a personal blog needs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why You Need a Personal Mission Statement]]></title><description><![CDATA[Are You Going Somewhere, or Just Busy?]]></description><link>https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</guid><pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most of us stay busy without asking why. Stephen Covey calls this out in Habit 2 of &lt;em&gt;The 7 Habits of Highly Effective People&lt;/em&gt;: Begin with the End in Mind. His answer to it is a personal mission statement.&lt;/p&gt;
 &lt;h2 id=&quot;what-it-is&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-it-is&quot; aria-label=&quot;what it is permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What It Is&lt;/h2&gt;
 &lt;p&gt;A personal mission statement is a written declaration of your core values, your purpose, and the kind of person you’ve decided to be. Not a goal list. Not a vision board. Think of it as a personal constitution — the document you return to when a hard decision lands, or when life knocks you sideways and you need to find your footing again.&lt;/p&gt;
 &lt;p&gt;It doesn’t ask what you want to achieve. It asks who you want to become.&lt;/p&gt;
