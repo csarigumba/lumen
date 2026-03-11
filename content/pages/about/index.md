@@ -1,15 +1,23 @@
 ---
-title: "About me"
+title: "About"
 template: "page"
 socialImage: "./image.jpg"
 ---
 
-Welcome to my corner of the internet!
+## About this blog
 
-I'm **Cedric Sarigumba** — software engineer, husband, and dad. I've spent years helping teams build better systems and move faster.
+This blog is about
 
-I write about software engineering and the bigger lessons life has thrown at me. Not theory — stuff I've actually lived through. It took years of hard work and harder lessons to get here. If I can shorten that journey for even one person, it's worth writing about.
+- programming, philosophy, or any interesting things I want to share
+- writing down what I've learned from building systems and making decisions
+- documenting knowledge for others to learn from, and for myself to look back on 30 years from now　😂
 
-When I'm not at my desk, you'll find me out cycling, on some adventure with my two sons and my wife — or quietly lost in a good book. 😄
+## About me
 
-Take a look around — hope you find something useful.
+I'm a software engineer. I live in Cebu, Philippines, with my wife and two sons.
+
+I've spent years helping teams build better systems and move faster. Along the way, I picked up lessons that went beyond code — about work, about choices, about figuring things out the hard way.
+
+I write about software engineering, philosophy, and anything in between. If something here helps even one person solve a problem faster, that's reason enough to write it down.
+
+Outside of work, I spend my time cycling or somewhere outdoors with my family.
