@@ -1,8 +1,8 @@
 ---
 title: "How to Host an Almost Free Blog Site"
-date: "2026-03-10T00:00:00.000Z"
+date: "2026-03-11T00:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/posts/how-to-host-an-almost-free-blog-site"
 category: "Software Engineering"
 tags:
