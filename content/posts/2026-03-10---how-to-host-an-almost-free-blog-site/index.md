@@ -98,4 +98,4 @@ For that price, the blog is:
 - Version-controlled (everything stored in Git)
 - Fully owned and portable
 
-A simple setup that does exactly what a personal blog needs.
+A simple setup that does exactly what a personal blog needs. ✌️

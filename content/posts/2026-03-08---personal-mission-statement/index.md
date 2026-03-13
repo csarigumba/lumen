@@ -54,3 +54,5 @@ There's no perfect format. Some are a single sentence. Others are structured by 
 Here is my personal mission statement — seven commitments, each specific and actionable.
 
 [Read it here →](https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615)
+
+✌️
