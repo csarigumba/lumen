@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 11 Mar 2026 15:19:37 GMT</lastBuildDate><item><title><![CDATA[How to Host an Almost Free Blog Site]]></title><description><![CDATA[Explaining the technology choices behind hosting a low-cost personal blog.]]></description><link>https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</guid><pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Mar 2026 06:07:42 GMT</lastBuildDate><item><title><![CDATA[If I Can Recommend One Book, It Will Be Meditations]]></title><description><![CDATA[A Roman Emperor's private journal.]]></description><link>https://cedricsarigumba.com/posts/meditations-by-marcus-aurelius</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/meditations-by-marcus-aurelius</guid><pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have read a handful of books related to self-improvement. I feel that most of them follow a pattern: different packaging but the same advice. However, there is one that sits apart from the rest and really sticks with me. It is the &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt; by Marcus Aurelius&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If I could recommend one book to someone trying to live a more intentional life, this would be it.&lt;/p&gt;
+&lt;div style=&quot;max-width: 400px; margin: 0 auto;&quot;&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/9568a/image1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/aAAwDAQACEAMQAAAB6vIWga00KJ5H20bAs6If/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQISAAMQESEyQv/aAAgBAQABBQJ3WMllo1e7xi51u84NBGJDce3AGP/EABgRAAIDAAAAAAAAAAAAAAAAAAACEBIi/9oACAEDAQE/AYfJY//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESE//aAAgBAgEBPwEpkFo5o//EAB4QAAIBBQADAAAAAAAAAAAAAAABIQIQETFBYXGR/9oACAEBAAY/AnKMKqTn08Cqzo6SvRGrwrf/xAAeEAEAAgIBBQAAAAAAAAAAAAABABExQSFRYXGB8f/aAAgBAQABPyGqOKWAj4Sj4QoKyg6hyxBkfSWVjW25ZgC7ygClzJvcFACIdJ//2gAMAwEAAgADAAAAEEMNAf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAIRH/2gAIAQMBAT8Q5s43Ilu3/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAECAQE/EApbqZ1gCXf/xAAgEAEAAgICAQUAAAAAAAAAAAABABExQSFhcVGRsfDx/9oACAEBAAE/EBX1o83FNpdFtdxWnPtUCw+v5CglCh1uPSZ8qhlGZkv1vxGxkUslHjMSogL53UtAlMr3ChFaIBw9p//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/8ac56/image1.webp 240w,
+/static/32b3e99c45ab6df94eab97362a7f212c/d3be9/image1.webp 480w,
+/static/32b3e99c45ab6df94eab97362a7f212c/e46b2/image1.webp 960w,
+/static/32b3e99c45ab6df94eab97362a7f212c/f992d/image1.webp 1440w,
+/static/32b3e99c45ab6df94eab97362a7f212c/882b9/image1.webp 1920w,
+/static/32b3e99c45ab6df94eab97362a7f212c/e51ec/image1.webp 3024w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/09b79/image1.jpg 240w,
+/static/32b3e99c45ab6df94eab97362a7f212c/7cc5e/image1.jpg 480w,
+/static/32b3e99c45ab6df94eab97362a7f212c/6a068/image1.jpg 960w,
+/static/32b3e99c45ab6df94eab97362a7f212c/644c5/image1.jpg 1440w,
+/static/32b3e99c45ab6df94eab97362a7f212c/0f98f/image1.jpg 1920w,
+/static/32b3e99c45ab6df94eab97362a7f212c/9568a/image1.jpg 3024w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/6a068/image1.jpg&quot;
+            alt=&quot;Meditations by Marcus Aurelius&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;what-it-is&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-it-is&quot; aria-label=&quot;what it is permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What It Is&lt;/h2&gt;
+&lt;p&gt;From Wikipedia ”&lt;a href=&quot;https://en.wikipedia.org/wiki/Marcus_Aurelius&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://en.wikipedia.org/wiki/Marcus_Aurelius&lt;/a&gt;“, &lt;strong&gt;Marcus Aurelius&lt;/strong&gt; was a &lt;strong&gt;Roman emperor from 161 to 180&lt;/strong&gt; and a &lt;strong&gt;Stoic philosopher&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;He wrote &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt; not for the public, but as a &lt;strong&gt;private journal&lt;/strong&gt;. What makes it powerful is that you are not reading advice meant for an audience, like most self-help books today, you are reading &lt;strong&gt;someone’s advice to themselves&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;why-it-still-matters&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-it-still-matters&quot; aria-label=&quot;why it still matters permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why It Still Matters&lt;/h2&gt;
+&lt;p&gt;Even though it is already nearly 2,000 years old, the problems that Marcus experienced are the same ones we face today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distraction&lt;/li&gt;
+&lt;li&gt;Not being present&lt;/li&gt;
+&lt;li&gt;Frustration with other people&lt;/li&gt;
+&lt;li&gt;Anxiety about things outside our control (past and present)&lt;/li&gt;
+&lt;li&gt;The temptation to waste time on things that don’t matter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;His approach is grounded in &lt;strong&gt;Stoic philosophy&lt;/strong&gt;, which boils down to a simple idea: &lt;strong&gt;Focus only on what you can control, your thoughts, your actions, your character. Everything else is just noise.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;some-of-my-favorite-lines-from-him&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#some-of-my-favorite-lines-from-him&quot; aria-label=&quot;some of my favorite lines from him permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Some of My Favorite Lines From Him&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Think of yourself as dead. You have lived your life. Now take what’s left and live it properly.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This resonates with me because I often waste time worrying about the past and thinking about other people’s opinions. It is easy to replay old mistakes or wonder how others judge us. But this quote cuts through all of that. &lt;strong&gt;If I think of my past life as already finished, then all that matters is how I choose to live from this moment forward, with clarity and intention.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a strong reminder for me to cherish every moment. Many of us wake up and immediately think about work, problems, or responsibilities. Marcus reminds us to pause and recognize something simple but powerful, &lt;strong&gt;being alive is already a privilege.&lt;/strong&gt; Every morning is another chance to experience life, to think clearly, to appreciate small moments, and to be with the people we love.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Accept whatever comes to you, woven in the pattern of your destiny. For what could more aptly fit your needs?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This relates to &lt;strong&gt;Amor Fati&lt;/strong&gt;, which means &lt;strong&gt;loving one’s fate&lt;/strong&gt;. It is the idea of not only accepting what happens in life, but embracing it fully. Everything that happens, whether good or difficult, becomes part of the path we are meant to walk.&lt;/p&gt;
+&lt;p&gt;For me, this means trusting that events in life serve a purpose, even when I do not immediately understand them. &lt;strong&gt;Challenges and setbacks are not obstacles, they are part of becoming stronger and wiser.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;how-to-read-it&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-to-read-it&quot; aria-label=&quot;how to read it permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to Read It&lt;/h2&gt;
+&lt;p&gt;I do not think &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt; is a book you need to read cover to cover in one sitting. I usually read it early in the morning during my coffee time, or at random moments during the day when I want to pause and reflect.&lt;/p&gt;
+&lt;h2 id=&quot;final-thought&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#final-thought&quot; aria-label=&quot;final thought permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Final Thought&lt;/h2&gt;
+&lt;p&gt;So if you have a chance to grab &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt;, please check it out. Hopefully it helps you as much as it helped me. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Host an Almost Free Blog Site]]></title><description><![CDATA[Explaining the technology choices behind hosting a low-cost personal blog.]]></description><link>https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</guid><pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
     &gt;
@@ -99,7 +181,7 @@
 &lt;li&gt;Version-controlled (everything stored in Git)&lt;/li&gt;
 &lt;li&gt;Fully owned and portable&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A simple setup that does exactly what a personal blog needs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why You Need a Personal Mission Statement]]></title><description><![CDATA[Are You Going Somewhere, or Just Busy?]]></description><link>https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</guid><pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most of us stay busy without asking why. Stephen Covey calls this out in Habit 2 of &lt;em&gt;The 7 Habits of Highly Effective People&lt;/em&gt;: Begin with the End in Mind. His answer to it is a personal mission statement.&lt;/p&gt;
+&lt;p&gt;A simple setup that does exactly what a personal blog needs. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why You Need a Personal Mission Statement]]></title><description><![CDATA[Are You Going Somewhere, or Just Busy?]]></description><link>https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-you-need-a-personal-mission-statement</guid><pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most of us stay busy without asking why. Stephen Covey calls this out in Habit 2 of &lt;em&gt;The 7 Habits of Highly Effective People&lt;/em&gt;: Begin with the End in Mind. His answer to it is a personal mission statement.&lt;/p&gt;
 &lt;h2 id=&quot;what-it-is&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-it-is&quot; aria-label=&quot;what it is permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What It Is&lt;/h2&gt;
 &lt;p&gt;A personal mission statement is a written declaration of your core values, your purpose, and the kind of person you’ve decided to be. Not a goal list. Not a vision board. Think of it as a personal constitution — the document you return to when a hard decision lands, or when life knocks you sideways and you need to find your footing again.&lt;/p&gt;
 &lt;p&gt;It doesn’t ask what you want to achieve. It asks who you want to become.&lt;/p&gt;
@@ -169,4 +251,5 @@
 &lt;p&gt;There’s no perfect format. Some are a single sentence. Others are structured by life domain — family, work, health, personal growth. What matters is that it reflects you — not a polished version of who you think you should be.&lt;/p&gt;
 &lt;h2 id=&quot;a-real-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-real-example&quot; aria-label=&quot;a real example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A Real Example&lt;/h2&gt;
 &lt;p&gt;Here is my personal mission statement — seven commitments, each specific and actionable.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;✌️&lt;/p&gt;</content:encoded></item></channel></rss>
