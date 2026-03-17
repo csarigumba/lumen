@@ -44,6 +44,10 @@ His approach is grounded in **Stoic philosophy**, which boils down to a simple i
 
 ## Some of My Favorite Lines From Him
 
+> “When you wake up in the morning, tell yourself: the people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous and surly. They are like this because they can't tell good from evil. But I have seen the beauty of good, and the ugliness of evil, and have recognized that the wrongdoer has a nature related to my own - not of the same blood and birth, but the same mind, and possessing a share of the divine. And so none of them can hurt me. No one can implicate me in ugliness. Nor can I feel angry at my relative, or hate him. We were born to work together like feet, hands and eyes, like the two rows of teeth, upper and lower. To obstruct each other is unnatural. To feel anger at someone, to turn your back on him: these are unnatural.”
+
+I think this is one of the most powerful quotes in the book. It reminds us that the world is full of ungrateful, arrogant, and dishonest people. Some will take advantage of us, and some simply do not know right from wrong. But we should not be upset because this is how the world works. They act this way **not out of malice, but out of ignorance**. Since I know the difference between right and wrong, I choose not to hold anger or negativity toward them. I will stay open-minded and objective while dealing with them. And regardless of what they do, **they cannot take away my highest faculty, my ability to think and choose clearly**. This is the most powerful thing I learned from Marcus Aurelius.
+
 > "Think of yourself as dead. You have lived your life. Now take what's left and live it properly."
 
 This resonates with me because I often waste time worrying about the past and thinking about other people's opinions. It is easy to replay old mistakes or wonder how others judge us. But this quote cuts through all of that. **If I think of my past life as already finished, then all that matters is how I choose to live from this moment forward, with clarity and intention.**
