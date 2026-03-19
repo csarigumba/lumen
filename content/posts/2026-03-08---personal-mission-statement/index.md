@@ -18,7 +18,7 @@ Many of us keep busy without really asking why. Stephen Covey points this out in
 
 ## What It Is
 
-A personal mission statement is a written statement of your core values, your purpose, and the kind of person you want to be. It’s not a list of goals or a vision board. Think of it as your personal guide — something you turn to when tough choices come up or life throws you off balance.
+A personal mission statement is a written statement of your core values, your purpose, and the kind of person you want to be. It’s not a list of goals or a vision board. Think of it as your personal guide, something you turn to when tough choices come up or life throws you off balance.
 
 A personal mission statement isn’t about what you want to achieve. It’s about who you want to become.
 
@@ -34,7 +34,7 @@ Covey explains it simply:
 	<blockquote>
 		<p>It's incredibly easy to get caught up in an activity trap, in the busyness of life, to work harder and harder at climbing the ladder of success only to discover it's leaning against the wrong wall.</p>
 		<footer>
-			<cite>— Stephen Covey, The 7 Habits of Highly Effective People</cite>
+			<cite>- Stephen Covey, The 7 Habits of Highly Effective People</cite>
 		</footer>
 	</blockquote>
 </figure>
@@ -51,7 +51,7 @@ There’s no perfect way to write it. Some mission statements are just one sente
 
 ## A Real Example
 
-Here is my personal mission statement — seven commitments, each specific and actionable.
+Here is my personal mission statement: seven commitments, each specific and actionable.
 
 [Read it here →](https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615)
 

@@ -25,7 +25,7 @@ Voice-to-text is a utility. It takes what I say and turns it into text. Paying a
 
 ## Why VoiceInk
 
-VoiceInk costs $25 — one time. No monthly charges, no annual renewal. You pay once, and you’re done.
+VoiceInk costs $25, one time. No monthly charges, no annual renewal. You pay once, and you’re done.
 
 For a tool that does essentially the same job, that pricing model made a lot more sense to me. The value I get doesn’t decrease over time, so the price shouldn’t keep repeating either.
 

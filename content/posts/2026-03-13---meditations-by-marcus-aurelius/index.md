@@ -52,7 +52,7 @@ I think this is one of the most powerful quotes in the book. It reminds us that 
 
 This resonates with me because I often waste time worrying about the past and thinking about other people's opinions. It is easy to replay old mistakes or wonder how others judge us. But this quote cuts through all of that. **If I think of my past life as already finished, then all that matters is how I choose to live from this moment forward, with clarity and intention.**
 
-> "When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love."
+> "When you arise in the morning, think of what a precious privilege it is to be alive, to breathe, to think, to enjoy, to love."
 
 This is a strong reminder for me to cherish every moment. Many of us wake up and immediately think about work, problems, or responsibilities. Marcus reminds us to pause and recognize something simple but powerful, **being alive is already a privilege.** Every morning is another chance to experience life, to think clearly, to appreciate small moments, and to be with the people we love.
 

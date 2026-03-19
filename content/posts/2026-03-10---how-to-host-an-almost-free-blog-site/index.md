@@ -63,7 +63,7 @@ There’s no CMS, no dashboard, and no rich text editor. Everything happens insi
 
 For someone already comfortable with Git and Markdown, this workflow is simple and fast.
 
-For the design, I started with a minimal Gatsby starter theme. The goal was to keep the layout clean and focused on the writing. No sidebars, no ads, no popups—just content.
+For the design, I started with a minimal Gatsby starter theme. The goal was to keep the layout clean and focused on the writing. No sidebars, no ads, no popups. Just content.
 
 ## DNS: Namecheap
 
