@@ -33,10 +33,12 @@ const Feed: FC<FeedProps> = ({ edges }) => (
               {edge.node.frontmatter.category}
             </Link>
           </span>
+          {/* Reading time hidden for now — uncomment to re-enable
           <span className={styles.divider} />
           <span className={styles.readingTime}>
             {edge.node.timeToRead} min read
           </span>
+          */}
         </div>
         <h2 className={styles.title}>
           <Link

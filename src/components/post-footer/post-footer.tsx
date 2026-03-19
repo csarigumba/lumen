@@ -16,8 +16,7 @@ const PostFooter: FC<PostFooterProps> = ({ date, timeToRead }) => (
         month: "short",
         day: "numeric",
       })}
-      {" "}&middot;{" "}
-      {timeToRead} min read
+      {/* Reading time hidden for now — uncomment to re-enable: &middot; {timeToRead} min read */}
     </p>
   </div>
 );
