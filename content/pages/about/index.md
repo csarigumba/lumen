@@ -16,4 +16,6 @@ I've spent years helping teams build better systems and move faster. Along the w
 
 I write about software engineering, philosophy, and anything in between. If something here helps even one person solve a problem faster, that's reason enough to write it down.
 
+I use generative AI to help proofread and improve the articles on this blog. I believe in being transparent about using these tools — they help me communicate my ideas more clearly, but the thoughts and experiences behind every post are entirely my own.
+
 Outside of work, I spend my time cycling or somewhere outdoors with my family.
