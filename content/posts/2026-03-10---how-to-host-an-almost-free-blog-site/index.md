@@ -20,7 +20,7 @@ I wanted a blog that I actually owned. Not a Medium profile or a Dev.to account,
 
 Platforms like those are convenient, but they control the layout, the distribution, and sometimes even the visibility of your writing. If the platform changes its rules, your content is affected.
 
-Running a full server for a personal blog, however, always felt like overkill. Hosting costs money, servers need maintenance, and configuring everything properly takes time.
+But running a full server for a personal blog always felt like overkill. Hosting costs money, servers need maintenance, and configuring everything properly takes time.
 
 So I looked for a simpler approach: something inexpensive, easy to maintain, and fully under my control.
 
@@ -69,7 +69,7 @@ For the design, I started with a minimal Gatsby starter theme. The goal was to k
 
 The only real cost in this setup is the domain name.
 
-I registered the domain through Namecheap. Domain prices typically range between $9 and $12 per year depending on the extension.
+I registered the domain through Namecheap. Domain prices typically range between $9 and $12 per year, depending on the extension.
 
 After purchasing the domain, the configuration is straightforward:
 
@@ -77,7 +77,7 @@ After purchasing the domain, the configuration is straightforward:
 2. Add the domain to the repository settings.
 3. Enable HTTPS.
 
-Once configured, the site becomes accessible through the custom domain instead of the default GitHub Pages URL.
+Once configured, the site is accessible through your custom domain instead of the default GitHub Pages URL.
 
 ## Total Cost
 
