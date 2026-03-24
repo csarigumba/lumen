@@ -70,7 +70,7 @@ What you pay attention to determines how you feel, think, and choose. So in orde
 
 Always be courageous, even in small ways. It doesn't have to be a big leap. Even a small challenge outside your comfort zone is enough. The idea is to constantly expose yourself to growth so you can discover the best version of yourself.
 
-I think the effort itself matters more than the outcome. If we can maintain a growth mindset, it pushes our boundaries, which leads to passion and progress. For example, I'm not naturally a solo dev. But recently, I've been trying to create apps and SaaS products that help me gain more knowledge and potentially monetize from them. The point isn't whether they succeed. The point is showing up every day, staying consistent, and building.
+I think the effort itself matters more than the outcome. If we can maintain a growth mindset, it pushes our boundaries, which leads to passion and progress. For example, I'm not naturally a writer. But recently, I've been consistently publishing articles to share my experiences and perspectives. The point isn't whether they go viral. The point is showing up every day, staying consistent, and building.
 
 ## 8. Always Tell the People You Care About That You Love Them
 
