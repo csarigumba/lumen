@@ -1,9 +1,9 @@
 ---
-title: "Why I Rode 500km Over Christmas"
-date: "2026-03-26T00:00:00.000Z"
+title: "Hard Things Build Character"
+date: "2026-03-24T00:00:00.000Z"
 template: "post"
 draft: false
-slug: "/posts/why-i-rode-500km-over-christmas"
+slug: "/posts/hard-things-build-character"
 category: "Personal Development"
 tags:
   - "Personal Development"
