@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Mar 2026 21:02:08 GMT</lastBuildDate><item><title><![CDATA[8 Lessons From Someone Who Lost Everything]]></title><description><![CDATA[Lessons from someone who lost everything and found himself.]]></description><link>https://cedricsarigumba.com/posts/8-lessons-from-someone-who-lost-everything</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/8-lessons-from-someone-who-lost-everything</guid><pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 26 Mar 2026 10:29:46 GMT</lastBuildDate><item><title><![CDATA[Why I Rode 500km Over Christmas]]></title><description><![CDATA[Finishing 500km over Christmas week taught me more about focus and self-control than I expected.]]></description><link>https://cedricsarigumba.com/posts/why-i-rode-500km-over-christmas</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-i-rode-500km-over-christmas</guid><pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last December, I completed the &lt;strong&gt;500km Rapha Challenge&lt;/strong&gt;. For those who don’t know, the challenge runs from December 25 to December 31, seven days, right in the middle of Christmas and New Year. That timing is part of what makes it hard. Everyone around you is resting, eating too much, celebrating. It’s the one week of the year where nobody expects you to be disciplined, and almost no one is. The festive atmosphere is everywhere, and the social pressure to just relax and enjoy it is real. That’s exactly what makes showing up on the bike every single day during that week so difficult.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8c48a/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABcUlEQVR42k1Ry07DMBDMLyBo0ySN4yaxHefRJk0LqBRVAoHEo0iUf+CC1CMHPgBx5I+HXVcgDqP1rndnx2Mv1xa2mmI661DWDXKlMQrHCKIDwrFAFCcUY4coFn/1gHKRFUhzjSxXSCYpvKurU+x2GxhboJm1qJspyqpC23W0pEVGC2SaubtDbjDvF7BlhVk3hzLWCeAFHL3nm0vs327wsL3G3f0jLtZrLJcLNNMG7bxHv1iiKA8LlDZ0LqnWOzXKFIgTSWRjB1buSZmQOglFCm1TIzcasaohdemaB0GAIcESkUxT5FoTDA2TBbFwFoxF4ha4J/thhKPjIdqzGW63azy9bPD68YX3z2/s93usV6cQUiLNlPPQD0LowjoSJubItZQ8ZHs8bmKpQghUlUZda7TnKzT90vmp8wwR9RhbuidzLw/yHJMxRiSKSRmeMsb9bkQXJ/4IAz/EycDHYEigfDgK3AB/zC/R/9oky92ZwR7+AGbOyxX4tlfhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8ac56/image1.webp 240w,
+/static/b3d9c80e38d7c3bb623775940b124a38/d3be9/image1.webp 480w,
+/static/b3d9c80e38d7c3bb623775940b124a38/e46b2/image1.webp 960w,
+/static/b3d9c80e38d7c3bb623775940b124a38/f992d/image1.webp 1440w,
+/static/b3d9c80e38d7c3bb623775940b124a38/882b9/image1.webp 1920w,
+/static/b3d9c80e38d7c3bb623775940b124a38/611d0/image1.webp 2096w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8ff5a/image1.png 240w,
+/static/b3d9c80e38d7c3bb623775940b124a38/e85cb/image1.png 480w,
+/static/b3d9c80e38d7c3bb623775940b124a38/d9199/image1.png 960w,
+/static/b3d9c80e38d7c3bb623775940b124a38/07a9c/image1.png 1440w,
+/static/b3d9c80e38d7c3bb623775940b124a38/29114/image1.png 1920w,
+/static/b3d9c80e38d7c3bb623775940b124a38/8c48a/image1.png 2096w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/d9199/image1.png&quot;
+            alt=&quot;Completing the 500km Rapha Challenge during Christmas week&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;500km done. December 25 to 31.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It wasn’t easy. There were moments during the long rides where I genuinely wanted to quit, where my legs were done and my mind was looking for any excuse to stop. But I kept going, and somewhere in those final kilometers, something shifted. It wasn’t just about finishing the challenge anymore. It was about what it means to keep going when everything around you is telling you to stop.&lt;/p&gt;
+&lt;p&gt;And here’s what I’ve come to believe: where you grew up doesn’t matter. What setbacks you’ve had before don’t matter. &lt;strong&gt;The only thing that matters is what you choose to do right now.&lt;/strong&gt; I know that sounds like something you’d find on a motivational poster, but I really mean it. Most people are too busy worrying about what other people think to actually do the hard thing. Here’s the truth: the people who are judging you are the same people who aren’t willing to do what you’re doing. Finishing 500 kilometers during Christmas week isn’t something most people will ever do, not because they can’t, but because they won’t start, and if they start, they won’t keep going when it gets uncomfortable.&lt;/p&gt;
+&lt;p&gt;But I think the problem goes deeper than just willpower. That endless feed you scroll through every morning before you even get out of bed is not just a habit. It’s designed by smart people to keep you coming back, keep you hooked, and keep the money flowing to the platforms. The side effect is that your brain starts expecting fast rewards. And when something requires sustained effort over days or weeks, like a cycling challenge, it starts to feel impossibly hard, not because it is, but because you’ve been conditioned to give up the moment a reward isn’t immediate. Your habits are being shaped, and most of the time, &lt;em&gt;you don’t even notice it’s happening.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The reason this is so hard to see is because it happens slowly, in small steps, over a long time. By the time it’s worked, you’ll feel like you’re just making free choices, but those choices are being made inside a system designed to nudge you in a certain direction. I’ve sat on the couch with my family, a movie on, and still reached for my phone. Not because anything important was happening. Just because the pull was there. The goal of these apps is not to enrich your life. It’s to keep you scrolling so you produce, consume, and comply.&lt;/p&gt;
+&lt;p&gt;The people who benefit most from this system are the ones who want you distracted, dependent, and comfortable. But they cannot control your mind completely. You still have the freedom to think for yourself. Recognizing that you’ve been conditioned is the first step. Deciding to do something about it is the second.&lt;/p&gt;
+&lt;p&gt;I also think real confidence only comes from self-control. Not from escapes that numb you, but from doing the things that are actually hard. Finishing the Rapha 500km during Christmas week, when everyone else was resting, reminded me of that. Your actions either build you up or they don’t. There’s no shortcut around it.&lt;/p&gt;
+&lt;p&gt;If you ride too, let’s connect on &lt;a href=&quot;https://www.strava.com/athletes/75785503&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Strava&lt;/a&gt;. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[8 Lessons From Someone Who Lost Everything]]></title><description><![CDATA[Lessons from someone who lost everything and found himself.]]></description><link>https://cedricsarigumba.com/posts/8-lessons-from-someone-who-lost-everything</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/8-lessons-from-someone-who-lost-everything</guid><pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
     &gt;
