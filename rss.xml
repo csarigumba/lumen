@@ -1,4 +1,184 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 26 Mar 2026 14:05:44 GMT</lastBuildDate><item><title><![CDATA[How to Run a GPU Job on GCP Cloud Batch from Code]]></title><description><![CDATA[How to submit a Cloud Batch GPU job programmatically, with GCS volume mounts and environment variables.]]></description><link>https://cedricsarigumba.com/posts/how-to-spawn-a-gpu-cloud-batch-job-programmatically</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-spawn-a-gpu-cloud-batch-job-programmatically</guid><pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I needed to run some processing that requires a GPU. Serverless functions have a hard timeout limit, and this process can easily run longer than that. Running it on a dedicated GCE instance is not an option either since the workload is on-demand, not something that needs a machine running 24/7. The cleaner pattern is to submit a Cloud Batch job from a serverless function and return immediately. The batch job spins up a GPU machine, does the heavy processing, writes results to GCS, and shuts down with no idle cost and no timeout pressure on the caller.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Mar 2026 02:26:42 GMT</lastBuildDate><item><title><![CDATA[Why I Use Ghostty as My Terminal on macOS]]></title><description><![CDATA[After a month with Ghostty, I'm not going back to iTerm2. Here's why, plus my full config.]]></description><link>https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</guid><pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I switched from iTerm2 to &lt;a href=&quot;https://ghostty.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ghostty&lt;/a&gt; a month ago and I’m not going back. For those who haven’t heard of it, Ghostty is a relatively new terminal emulator built from scratch in Zig with GPU-accelerated rendering. I first noticed the difference during a long Claude Code session, iTerm2 was lagging as output streamed in, and I figured there had to be something faster. This post is a practical walkthrough of why I switched and my full config, so you can try it yourself.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/ca640/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.75000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkUlEQVR42o2R627bMAyF/S4b2qa2fJMtX6RIlhInTdM4zWVbEWDPskc/oxV3CLYV6I8P55CUaFoMvl1+onYDZHeAtK9ozQChBxREqXdoFieopx/Qmzc0yxPy+Y4YkBFMDQhH5B6z5gV8fUHw6+2IvVmBN8/g3CFiczyEklCee/KeR4k7n5dTXmH2TjRqC55bBC/rHbRaoqws4rRFkqn/kk5k7+RX0kwiJU1SiVw4BP32AuNO6BZHGPrlzh3Jn+D6s4/d8gxLNd3t/Rl/zh38OWMPxJHqZzRqi0wsEdj+O1q5AxcrmvIJhVh75aR88mW1QUGaj7nqyuizoidPd+oNotQi5NRQuFc8JAosc5il9H6xJgzlDO6Yxtdo/ocvHxFOUI+g7reIa02T9fQFhTCeg6UGcd4hTDRmTH2Ke1pKlNFSarEAi1rEsUTyNwk9OE1/S+KRk14Z8+N9UXYIKtpuGNaImfyAduJfz27iiIbi3CBYuGeUhUFNjStB6ul8XFfdhL3mRy/sVO9Q3dTLQsOaFX4DZ2BLmBU6cZ4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/8ac56/image1.webp 240w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/d3be9/image1.webp 480w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/e46b2/image1.webp 960w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/f992d/image1.webp 1440w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/882b9/image1.webp 1920w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/13b5c/image1.webp 2406w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/8ff5a/image1.png 240w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/e85cb/image1.png 480w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/d9199/image1.png 960w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/07a9c/image1.png 1440w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/29114/image1.png 1920w,
+/static/d6a6d4d24e50e90f97789f7c35cd1041/ca640/image1.png 2406w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/d9199/image1.png&quot;
+            alt=&quot;Ghostty running Claude Code on macOS&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;My current Ghostty setup running Claude Code.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;why-ghostty&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-ghostty&quot; aria-label=&quot;why ghostty permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why Ghostty&lt;/h2&gt;
+&lt;p&gt;The main reason is speed. Ghostty uses your GPU to render text instead of the CPU, and you can feel the difference. During Claude Code sessions where output is streaming fast and non-stop, Ghostty stays smooth. iTerm2 would lag and stutter during the same workload. It also starts up almost instantly and uses less memory, it just feels lighter overall.&lt;/p&gt;
+&lt;p&gt;Out of the box, Ghostty comes with Nerd Font support and hundreds of built-in themes, so you don’t have to configure much to get a good setup. And when you do want to customize, it’s a single plain text config file at &lt;code class=&quot;language-text&quot;&gt;~/.config/ghostty/config&lt;/code&gt;. No settings GUI, no menus to dig through. You edit the file, hit &lt;code class=&quot;language-text&quot;&gt;Cmd+,&lt;/code&gt; to reload, and you’re done.&lt;/p&gt;
+&lt;h2 id=&quot;my-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-config&quot; aria-label=&quot;my config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My Config&lt;/h2&gt;
+&lt;p&gt;Here’s my full Ghostty config. I’ll walk through each section so you know what it does and why I set it that way.&lt;/p&gt;
+&lt;h3 id=&quot;typography&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#typography&quot; aria-label=&quot;typography permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Typography&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;font-family = JetBrainsMonoNerdFont
+font-size = 14
+font-thicken = true
+adjust-cell-height = 2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;JetBrains Mono is my go-to monospace font. The Nerd Font variant gives me all the icons I need for file trees and terminal tools. &lt;code class=&quot;language-text&quot;&gt;font-thicken&lt;/code&gt; makes the text a bit bolder on Retina displays, and &lt;code class=&quot;language-text&quot;&gt;adjust-cell-height = 2&lt;/code&gt; adds a little breathing room between lines so long sessions are easier on the eyes.&lt;/p&gt;
+&lt;h3 id=&quot;theme&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#theme&quot; aria-label=&quot;theme permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Theme&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;theme = catppuccin-mocha&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I use Catppuccin Mocha, a dark theme with soft, pastel colors that’s easy to look at for hours. Ghostty also supports auto light/dark switching with &lt;code class=&quot;language-text&quot;&gt;theme = light:Catppuccin Latte,dark:Catppuccin Mocha&lt;/code&gt; if you prefer that, but I just keep it dark.&lt;/p&gt;
+&lt;h3 id=&quot;window&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#window&quot; aria-label=&quot;window permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;background-opacity = 0.92
+background-blur-radius = 20
+window-padding-x = 10
+window-padding-y = 8
+window-save-state = always
+window-theme = auto
+minimum-contrast = 1.3
+macos-titlebar-style = tabs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A slight transparency with blur gives the terminal a clean, modern look without being distracting. &lt;code class=&quot;language-text&quot;&gt;window-save-state = always&lt;/code&gt; means Ghostty remembers my window positions and tabs between sessions, so I pick up right where I left off. &lt;code class=&quot;language-text&quot;&gt;macos-titlebar-style = tabs&lt;/code&gt; keeps things compact by putting tabs in the title bar instead of taking up extra space.&lt;/p&gt;
+&lt;h3 id=&quot;cursor-and-mouse&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cursor-and-mouse&quot; aria-label=&quot;cursor and mouse permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cursor and Mouse&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.8
+mouse-hide-while-typing = true
+copy-on-select = clipboard&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Bar cursor because I find it cleaner than a block. &lt;code class=&quot;language-text&quot;&gt;copy-on-select = clipboard&lt;/code&gt; is a small thing but saves a lot of &lt;code class=&quot;language-text&quot;&gt;Cmd+C&lt;/code&gt; presses, just highlight text and it’s copied.&lt;/p&gt;
+&lt;h3 id=&quot;notifications-and-security&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notifications-and-security&quot; aria-label=&quot;notifications and security permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notifications and Security&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;desktop-notifications = true
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+shell-integration = detect
+scrollback-limit = 25000000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Desktop notifications are handy when a long-running command finishes. Clipboard paste protection warns you before pasting something suspicious into the terminal, which is a nice safety net. The big one here is &lt;code class=&quot;language-text&quot;&gt;scrollback-limit = 25000000&lt;/code&gt;, I set this high specifically for Claude Code sessions, where the output can get very long and I want to be able to scroll back through everything.&lt;/p&gt;
+&lt;h3 id=&quot;splits&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#splits&quot; aria-label=&quot;splits permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Splits&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+w=close_surface&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to have a new surface without opening a separate window, Ghostty supports splitting. &lt;code class=&quot;language-text&quot;&gt;Cmd+D&lt;/code&gt; splits to the right, &lt;code class=&quot;language-text&quot;&gt;Cmd+Shift+D&lt;/code&gt; splits down, and &lt;code class=&quot;language-text&quot;&gt;Cmd+W&lt;/code&gt; closes the current split.&lt;/p&gt;
+&lt;h3 id=&quot;tabs-and-utilities&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tabs-and-utilities&quot; aria-label=&quot;tabs and utilities permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tabs and Utilities&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;keybind = cmd+t=new_tab
+keybind = cmd+shift+left=previous_tab
+keybind = cmd+shift+right=next_tab
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+zero=reset_font_size
+keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Standard tab and font size shortcuts. &lt;code class=&quot;language-text&quot;&gt;Cmd+,&lt;/code&gt; to reload the config is one I use constantly while tweaking settings.&lt;/p&gt;
+&lt;h2 id=&quot;the-quick-terminal&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-quick-terminal&quot; aria-label=&quot;the quick terminal permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Quick Terminal&lt;/h2&gt;
+&lt;p&gt;One of my favorite features is the quick terminal, a dropdown terminal that slides in from the top of your screen with a single hotkey.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;quick-terminal-position = top
+quick-terminal-screen = mouse
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.15
+keybind = global:ctrl+grave_accent=toggle_quick_terminal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I press &lt;code class=&quot;language-text&quot;&gt;Ctrl+backtick&lt;/code&gt; from anywhere on my Mac and a terminal drops down from the top of the screen. The animation is set to 0.15 seconds so it feels instant. I use it constantly for quick git commands, checking a file, or running a one-liner without switching away from whatever I’m working on. It’s like having a scratch terminal always one keystroke away.&lt;/p&gt;
+&lt;h2 id=&quot;one-gripe&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#one-gripe&quot; aria-label=&quot;one gripe permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;One Gripe&lt;/h2&gt;
+&lt;p&gt;It’s not perfect. I’ve noticed that after long sessions, the keyboard shortcuts sometimes stop working properly. It doesn’t happen often, but when it does, the fix is just opening a new terminal window. Minor, but worth mentioning.&lt;/p&gt;
+&lt;h2 id=&quot;one-month-in&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#one-month-in&quot; aria-label=&quot;one month in permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;One Month In&lt;/h2&gt;
+&lt;p&gt;I’ve been using Ghostty for about a month now and I don’t see myself going back to iTerm2. It’s fast, lightweight, and the config is dead simple. If you spend a lot of time in the terminal, especially if you’re running Claude Code, give it a try. You can grab it at &lt;a href=&quot;https://ghostty.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ghostty.org&lt;/a&gt; and drop the config below into &lt;code class=&quot;language-text&quot;&gt;~/.config/ghostty/config&lt;/code&gt; to get started. ✌️&lt;/p&gt;
+&lt;h2 id=&quot;full-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-config&quot; aria-label=&quot;full config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Config&lt;/h2&gt;
+&lt;p&gt;Here’s the complete config in one block so you can copy and paste it directly:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Typography
+
+font-family = JetBrainsMonoNerdFont
+font-size = 14
+font-thicken = true
+adjust-cell-height = 2
+
+# Theme
+
+theme = catppuccin-mocha
+
+# Window
+
+background-opacity = 0.92
+background-blur-radius = 20
+window-padding-x = 10
+window-padding-y = 8
+window-save-state = always
+window-theme = auto
+minimum-contrast = 1.3
+macos-titlebar-style = tabs
+
+# Cursor &amp;amp; Mouse
+
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.8
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# Quick Terminal
+
+quick-terminal-position = top
+quick-terminal-screen = mouse
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.15
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+# Notifications &amp;amp; Security
+
+desktop-notifications = true
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+shell-integration = detect
+scrollback-limit = 25000000
+
+# Splits
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+w=close_surface
+
+# Tabs
+
+keybind = cmd+t=new_tab
+keybind = cmd+shift+left=previous_tab
+keybind = cmd+shift+right=next_tab
+
+# Font Size
+
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+zero=reset_font_size
+
+# Utilities
+keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How to Run a GPU Job on GCP Cloud Batch from Code]]></title><description><![CDATA[How to submit a Cloud Batch GPU job programmatically, with GCS volume mounts and environment variables.]]></description><link>https://cedricsarigumba.com/posts/how-to-spawn-a-gpu-cloud-batch-job-programmatically</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-spawn-a-gpu-cloud-batch-job-programmatically</guid><pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I needed to run some processing that requires a GPU. Serverless functions have a hard timeout limit, and this process can easily run longer than that. Running it on a dedicated GCE instance is not an option either since the workload is on-demand, not something that needs a machine running 24/7. The cleaner pattern is to submit a Cloud Batch job from a serverless function and return immediately. The batch job spins up a GPU machine, does the heavy processing, writes results to GCS, and shuts down with no idle cost and no timeout pressure on the caller.&lt;/p&gt;
 &lt;p&gt;This post covers how to do that programmatically using the &lt;code class=&quot;language-text&quot;&gt;@google-cloud/batch&lt;/code&gt; Node.js SDK.&lt;/p&gt;
 &lt;h2 id=&quot;hardware-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware-configuration&quot; aria-label=&quot;hardware configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware Configuration&lt;/h2&gt;
 &lt;p&gt;Define your GPU machine spec in a config object:&lt;/p&gt;
