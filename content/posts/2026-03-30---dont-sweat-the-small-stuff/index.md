@@ -4,7 +4,7 @@ date: "2026-03-30T00:00:00.000Z"
 template: "post"
 draft: false
 slug: "/posts/dont-sweat-the-small-stuff"
-category: "Personal"
+category: "Personal Development"
 tags:
   - "Personal Development"
   - "Stoicism"
