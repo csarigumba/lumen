@@ -10,6 +10,7 @@ tags:
   - "7 Habits"
   - "Stephen Covey"
   - "Mission Statement"
+  - "Mindset"
 description: "Are You Going Somewhere, or Just Busy?"
 socialImage: "./image.jpg"
 ---

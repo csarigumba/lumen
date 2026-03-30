@@ -10,6 +10,7 @@ tags:
   - "Stoicism"
   - "Marcus Aurelius"
   - "Book Recommendation"
+  - "Mindset"
 description: "A Roman Emperor's private journal."
 socialImage: "./image.jpg"
 ---

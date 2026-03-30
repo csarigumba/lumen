@@ -8,7 +8,7 @@ category: "Productivity"
 tags:
   - "Productivity"
   - "Voice to Text"
-  - "Tools"
+  - "Developer Tools"
 description: "A one-time purchase, local processing, and flexible model options made the switch easy."
 socialImage: "./image.jpg"
 ---

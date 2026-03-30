@@ -14,7 +14,10 @@
     {
       "title": "About me",
       "url": "/pages/about"
-    }
+    },{
+    "title": "Tags",
+    "url": "/tags"
+  }
   ],
   "author": {
     "title": "Cedric Sarigumba",
