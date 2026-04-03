@@ -20,7 +20,7 @@ I tried letting AI drive my full workflow. From reading PRDs to breaking down ta
 
 I think about this in two modes: **human in the loop**, where you review every step or write the code yourself with AI assisting, and **human on the loop**, where you set the direction, AI executes, and you monitor. Both have their place. The question is when to use which.
 
-![You hold the wheel. AI rides shotgun.](./image1.png)
+![You hold the wheel. AI rides shotgun.](./image1.jpg)
 _You hold the wheel. AI rides shotgun._
 
 ## The Problem With Letting AI Drive

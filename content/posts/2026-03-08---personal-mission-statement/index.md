@@ -55,5 +55,3 @@ There’s no perfect way to write it. Some mission statements are just one sente
 Here is my personal mission statement: seven commitments, each specific and actionable.
 
 [Read it here →](https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615)
-
-✌️

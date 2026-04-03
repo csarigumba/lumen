@@ -17,7 +17,7 @@ socialImage: "./image.jpg"
 
 Last December, I completed the **500km Rapha Challenge**. For those who don't know, the challenge runs from December 25 to December 31, seven days, right in the middle of Christmas and New Year. That timing is part of what makes it hard. Everyone around you is resting, eating too much, celebrating. It's the one week of the year where nobody expects you to be disciplined, and almost no one is. The festive atmosphere is everywhere, and the social pressure to just relax and enjoy it is real. That's exactly what makes showing up on the bike every single day during that week so difficult.
 
-![Completing the 500km Rapha Challenge during Christmas week](./image1.png)
+![Completing the 500km Rapha Challenge during Christmas week](./image1.jpg)
 _500km done. December 25 to 31._
 
 It wasn't easy. There were moments during the long rides where I genuinely wanted to quit, where my legs were done and my mind was looking for any excuse to stop. But I kept going, and somewhere in those final kilometers, something shifted. It wasn't just about finishing the challenge anymore. It was about what it means to keep going when everything around you is telling you to stop.
@@ -32,4 +32,4 @@ The people who benefit most from this system are the ones who want you distracte
 
 I also think real confidence only comes from self-control. Not from escapes that numb you, but from doing the things that are actually hard. Finishing the Rapha 500km during Christmas week, when everyone else was resting, reminded me of that. Your actions either build you up or they don't. There's no shortcut around it.
 
-If you ride too, let's connect on [Strava](https://www.strava.com/athletes/75785503). ✌️
+If you ride too, let's connect on [Strava](https://www.strava.com/athletes/75785503). 🤝

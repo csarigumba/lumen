@@ -40,4 +40,4 @@ Small tasks done well, day after day, compound. You start noticing the differenc
 
 ---
 
-So yeah, sweat the small stuff. It's where the big stuff begins. ✌️
+So yeah, sweat the small stuff. It's where the big stuff begins.

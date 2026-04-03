@@ -69,4 +69,4 @@ I don't think **_Meditations_** is a book you need to read cover to cover in one
 
 ## Final Thought
 
-So if you have a chance to grab **_Meditations_**, please check it out. Hopefully it helps you as much as it helped me. ✌️
+So if you have a chance to grab **_Meditations_**, please check it out. Hopefully it helps you as much as it helped me.
