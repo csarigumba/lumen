@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Apr 2026 18:14:24 GMT</lastBuildDate><item><title><![CDATA[In the Loop or On the Loop? How I Think About Using AI to Code]]></title><description><![CDATA[The short answer: don't abandon the keyboard, but don't refuse the copilot either. The sweet spot is knowing when to drive and when to delegate.]]></description><link>https://cedricsarigumba.com/posts/in-the-loop-or-on-the-loop</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/in-the-loop-or-on-the-loop</guid><pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been using AI coding agents for almost a year now. I’ve tried GitHub Copilot, Cursor, and Claude Code, and I’ve settled on Claude Code as my primary tool. The productivity gains are real. I ship faster, I prototype in hours instead of days, and I’ve built things I probably wouldn’t have attempted before. But after months of pushing AI further into my workflow, letting it handle entire features end to end, something started to feel off.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Apr 2026 02:25:47 GMT</lastBuildDate><item><title><![CDATA[What Epictetus Taught Me About Letting Go]]></title><description><![CDATA[Some people suffer twice. Once while doing the work, and again while worrying about the result. Here's what Epictetus taught me about focusing on what I can control.]]></description><link>https://cedricsarigumba.com/posts/what-epictetus-taught-me-about-letting-go</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/what-epictetus-taught-me-about-letting-go</guid><pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our actions. The things in our control are by nature free, unrestrained, unhindered; but those not in our control are weak, slavish, restrained, belonging to others. Remember, then, that if you suppose that things which are slavish by nature are also free, and that what belongs to others is your own, then you will be hindered. You will lament, you will be disturbed, and you will find fault both with gods and men. But if you suppose that only to be your own which is your own, and what belongs to others such as it really is, then no one will ever compel you or restrain you. Further, you will find fault with no one or accuse no one. You will do nothing against your will. No one will hurt you, you will have no enemies, and you not be harmed.”
+&lt;em&gt;Epictetus, Enchiridion&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Epictetus was a Stoic philosopher and former slave who lived nearly 2,000 years ago. I read this passage years ago and thought I understood it. I didn’t. And I keep needing to relearn it, especially the part about suffering over things I can’t control.&lt;/p&gt;
+&lt;h2 id=&quot;the-second-suffering&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-second-suffering&quot; aria-label=&quot;the second suffering permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Second Suffering&lt;/h2&gt;
+&lt;p&gt;Some people suffer twice. Once while doing the work, and again while worrying about the result. The first kind of suffering makes sense. Hard work is supposed to be hard. But the second one? That’s self-inflicted, and most people don’t even realize they’re doing it.&lt;/p&gt;
+&lt;p&gt;Having a goal matters. A deep sense of where you want to go is important. But there’s a difference between aiming toward something and obsessing over whether you’ll get there. The moment you shift from “am I doing this well” to “will this work out,” your execution drops. Instead of focusing on the present, on what’s right in front of you, you spend energy on something you can’t control. And the worst part is, the worrying doesn’t change the outcome. It just steals the joy from the process.&lt;/p&gt;
+&lt;p&gt;This isn’t about not caring. It’s about caring about the right things at the right time.&lt;/p&gt;
+&lt;h2 id=&quot;it-happens-more-than-you-think&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#it-happens-more-than-you-think&quot; aria-label=&quot;it happens more than you think permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;It Happens More Than You Think&lt;/h2&gt;
+&lt;p&gt;I train for local cycling events here in Cebu. I put in the work, show up early, push through intervals. But no matter how hard I train, I catch myself worrying about where I’ll place. Cebu has a lot of really strong cyclists. Their performance on race day is completely outside my control. I can only control how I prepare and how I ride.&lt;/p&gt;
+&lt;p&gt;I once built something I was really excited about. I wanted to solve a problem I was personally experiencing, and I felt other people were dealing with the same thing. But before I even finished, the worry crept in. What if nobody uses it? What if the effort is wasted? I can build the best thing I’m capable of building, but I can’t force people to care about it.&lt;/p&gt;
+&lt;p&gt;And then there’s sharing ideas. I give talks sometimes, and I worry that people won’t agree with what I’m saying. Everyone has different opinions, and you can’t please all of them. That’s just reality. But accepting that is harder than it sounds. The worry isn’t really about being wrong. It’s about being rejected for what you believe.&lt;/p&gt;
+&lt;p&gt;Three different situations, same trap. Do something meaningful, then let the worry about other people’s reactions poison the experience.&lt;/p&gt;
+&lt;h2 id=&quot;the-archer-and-the-target&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-archer-and-the-target&quot; aria-label=&quot;the archer and the target permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Archer and the Target&lt;/h2&gt;
+&lt;p&gt;Here’s a metaphor I once read that stuck with me. I can’t remember where I first heard it, but it goes like this.&lt;/p&gt;
+&lt;p&gt;Imagine you’re an archer, and there’s a target in front of you. You take your time. You steady your breathing, adjust your stance, aim carefully. You do everything right. Then you release the arrow.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4db4db5e9d73b63e43f768e780c584a1/ac99c/image1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAVphJlSpp2H/xAAaEAADAQADAAAAAAAAAAAAAAAAAQIEERIU/9oACAEBAAEFAp4ieo4I00ha6PUz/8QAFhEBAQEAAAAAAAAAAAAAAAAAABIx/9oACAEDAQE/AdQ//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAgEBPwHYWf/EABkQAAIDAQAAAAAAAAAAAAAAAAAxARAhMv/aAAgBAQAGPwLRWjiD/8QAHxAAAgECBwAAAAAAAAAAAAAAAAERITFBUXGBkaGx/9oACAEBAAE/IUUqeikqs/giTBuzI+Sa7Nz/2gAMAwEAAgADAAAAEJjf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxBDi1f/xAAYEQACAwAAAAAAAAAAAAAAAAAAARExUf/aAAgBAgEBPxBOxE8P/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFxUWGB/9oACAEBAAE/EHi6oA7vomw6HlqFaF+wEDHpkMcnalAWPK5//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4db4db5e9d73b63e43f768e780c584a1/8ac56/image1.webp 240w,
+/static/4db4db5e9d73b63e43f768e780c584a1/d3be9/image1.webp 480w,
+/static/4db4db5e9d73b63e43f768e780c584a1/e46b2/image1.webp 960w,
+/static/4db4db5e9d73b63e43f768e780c584a1/f992d/image1.webp 1440w,
+/static/4db4db5e9d73b63e43f768e780c584a1/0abaa/image1.webp 1536w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4db4db5e9d73b63e43f768e780c584a1/09b79/image1.jpg 240w,
+/static/4db4db5e9d73b63e43f768e780c584a1/7cc5e/image1.jpg 480w,
+/static/4db4db5e9d73b63e43f768e780c584a1/6a068/image1.jpg 960w,
+/static/4db4db5e9d73b63e43f768e780c584a1/644c5/image1.jpg 1440w,
+/static/4db4db5e9d73b63e43f768e780c584a1/ac99c/image1.jpg 1536w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4db4db5e9d73b63e43f768e780c584a1/6a068/image1.jpg&quot;
+            alt=&quot;An arrow mid-flight against a sunset sky&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;But the wind picks up. Or the bowstring snaps. Or the target shifts at the last moment. No matter how perfect your aim was, the outcome was never fully yours to decide.&lt;/p&gt;
+&lt;p&gt;The archer’s only job is to aim well and release. Everything after that is out of their hands. That’s where “things in our control” ends, exactly like Epictetus described.&lt;/p&gt;
+&lt;p&gt;When I think about my cycling, my aim is the training. Race day results are the wind. When I think about building something, the work is the aim. Whether people show up is the wind. When I share my ideas in a talk, the preparation is the aim. Other people’s opinions are the wind.&lt;/p&gt;
+&lt;p&gt;I share this metaphor often with people around me who face the same kind of worry. It helps to have a picture for something that’s hard to put into words.&lt;/p&gt;
+&lt;h2 id=&quot;what-changes-when-you-let-go&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-changes-when-you-let-go&quot; aria-label=&quot;what changes when you let go permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What Changes When You Let Go&lt;/h2&gt;
+&lt;p&gt;When you stop worrying about results, something shifts. You become more consistent because you’re not constantly second-guessing yourself. Your focus sharpens because you’re only thinking about what’s in front of you, not what might happen later. And you actually start enjoying the process instead of dreading the verdict.&lt;/p&gt;
+&lt;p&gt;Setbacks hit less hard because you already expected that some things are out of your hands. You free up mental energy that was being wasted on things you couldn’t change. And you stop needing external validation to feel good about your work. The effort itself becomes enough.&lt;/p&gt;
+&lt;p&gt;Over time, you build a healthier relationship with effort itself. You do the work because it matters to you, not because you need a specific outcome to justify it.&lt;/p&gt;
+&lt;p&gt;This doesn’t mean you stop wanting to win or succeed. It means you stop letting that want interfere with the work.&lt;/p&gt;
+&lt;h2 id=&quot;the-practice&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-practice&quot; aria-label=&quot;the practice permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Practice&lt;/h2&gt;
+&lt;p&gt;This isn’t a one-time realization. It’s a daily practice, like training a muscle. You’ll catch yourself worrying again, and that’s okay. The goal isn’t to never care about outcomes. It’s to not let them consume you.&lt;/p&gt;
+&lt;p&gt;Every time you catch yourself and refocus on the work, you get a little better at it. If we can practice this diligently, we’ll be happier. Not because life gets easier, but because we stop making it harder than it needs to be.&lt;/p&gt;
+&lt;p&gt;Epictetus said it best: &lt;em&gt;“You will do nothing against your will. No one will hurt you, you will have no enemies, and you will not be harmed.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aim well. Release the arrow. Trust the process.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[In the Loop or On the Loop? How I Think About Using AI to Code]]></title><description><![CDATA[The short answer: don't abandon the keyboard, but don't refuse the copilot either. The sweet spot is knowing when to drive and when to delegate.]]></description><link>https://cedricsarigumba.com/posts/in-the-loop-or-on-the-loop</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/in-the-loop-or-on-the-loop</guid><pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been using AI coding agents for almost a year now. I’ve tried GitHub Copilot, Cursor, and Claude Code, and I’ve settled on Claude Code as my primary tool. The productivity gains are real. I ship faster, I prototype in hours instead of days, and I’ve built things I probably wouldn’t have attempted before. But after months of pushing AI further into my workflow, letting it handle entire features end to end, something started to feel off.&lt;/p&gt;
 &lt;p&gt;I tried letting AI drive my full workflow. From reading PRDs to breaking down tasks to writing every line of code, I handed over the wheel and just monitored. The output was fast. But fast isn’t the same as good. The short answer I’ve landed on: don’t abandon the keyboard, but don’t refuse the copilot either. The sweet spot is knowing when to drive and when to delegate, and that judgment itself is the skill worth sharpening.&lt;/p&gt;
 &lt;p&gt;I think about this in two modes: &lt;strong&gt;human in the loop&lt;/strong&gt;, where you review every step or write the code yourself with AI assisting, and &lt;strong&gt;human on the loop&lt;/strong&gt;, where you set the direction, AI executes, and you monitor. Both have their place. The question is when to use which.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -7,35 +83,35 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a54ddbd06ee1844715eced643d80ff8b/2bef9/image1.png&quot;
+    href=&quot;/static/7f550ebb0c63c589e93dc2ebb648aa79/72e01/image1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEfklEQVR42jWUWW8bdRTF/7PvM/aM7fF4xh7bSTx2vMRL46WN0zTN1jhpnDROXDtLibO4beykpHWbpCRSkVBpK7oIqnQBKhBF5QGeEAiB1Ad4KgiQkCr4EIiPwAQJ6bzce3V0j3T1uwAjOYwWDkXxGMWhJIdSPEpbcFbEOQljLOYIPeyzCMEgOP2/KAQlAIz9VxAsQlsIUeX0mK3rpJorunJFJTOhZE7b44O8kWO8XZQaIl0B3O7FrC5UkFFWBKYNZayY4KC1oD3ebxRWj52/3bP+XufUhjMz7sxOthcuegdqcnZKSo7SgaOMkaVDOUIL4ZIGcIuC8Q5MVAmHz9Ke8vfPJmcaneM1f++Umi3wRlruLoQmN/0jy7bcpLfSkHfvE8vX0aGzeCAFMIsCMyJi08hkXjhddlaW3fXNwOZla+EMcPlQSSVcHYHxVePMRqzWmn35q/H8e6y2C/dOoQMlgFAc4nSzoyVreZHuG8TDcSyWEgqn4wf3I48fIcEoYnXyRor2dLYvbaz9+Dr19CtsYQvpLRLVdQDTLDddEecXEbcXZi0QxUO8A/ASFQ2r+3vazj5wd6CSE6A4n8qd+fxb/+5dqXVbaO67Lu+DxMCoXjnnOJYGOINYZdTlI3whTPMDxkp0GPT8qtR3inVqsN0lZI9f/uGX/nufkm9sBe49EYbGQau1U7+wrvQMW0eLvpV6svnW0N6D7PZNfb3hzJ/IV5fGru5VZ0qAE2HVm9u52ffxl/LbH0ClC9L8KtiuzW3s7YaePJabV9y1FWV6wXFqrm3zWuqTh64bt5rvvPvRw7s7jTXCZge8FSgetlgeefkq+OIbz4NH4K36ufzaGlYsW4sV8kg/nRu2DE1ZxsviQt2ytZNfa9y+0pyfP0sqKrDaIV/As7U9+/ufs69+izz7DMzMVZX6eeDUuO6Mc+0C0T0gz1TU2pI0vwK7fVR3z9XWm5uri5DkgEQZjmUCT5+P/vTz3uvXiYMPQSieZCbKtsYloKjidEmsLGGpXnrsLOxQ8fYAUVpIj03caDWtvg7zBJHWdvWPv3q+/k67875w7jxIpDNA9oqb275bd8jMcWykgvVP4gPTzMlB17Xr3MQsKbu2Lq4UqnMgmCq9+OLgn7+DB8+gat1MAdzRNKrHEMVPxnvIE0XyVJWaWqYny6YNTxyDNANxaLW52cZGEz/S56pf0lq75OIKVVqAAhHAeDoZI425w4DgIIqDWAHmLLAgQiY3WpRNDuB6MJDIal15qXsQzZ4A6ePU8Dg+PAFpbYCyeShPJ9mWRJV2CKOASSlOA4yC5TY+MWjPjWGeEOcJSm0x0TjC5Eew3mG4Ow+3R2ATSZyz4Xad9ERQTxh1ehlvQAjEGM2PaUEh1ifnCoRmEBYH69Q5h06HUkR+BFZ0mOLhwx3mD+FNmA1CDTHeqOCPSEYXpwcxxaD8CWs0T8g+2qaKeoh3+gnBgdlUGGdgM5oZE2Ml0q5zeljwdSnho6xd51XD0ZFUo3nBFxXb4jY9bMruiwqyl7bIKE4fOlFTxL/xUOzSR6mrHQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBQEE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHHsmrKD1GM/obVCX//xAAbEAEAAgIDAAAAAAAAAAAAAAABAgMSIQAQEf/aAAgBAQABBQKPhwiMmvee1yJ2QHv/xAAXEQADAQAAAAAAAAAAAAAAAAAAAhAR/9oACAEDAQE/ATWv/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/ASP/xAAeEAAABQUBAAAAAAAAAAAAAAAAAREhMRAgIkFRYf/aAAgBAQAGPwLIEXd0kIxOIX2z/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIYFhsf/aAAgBAQABPyELjkStawQxU57G9qEp7IBslJMDqBhH5FVn/9oADAMBAAIAAwAAABBcMAP/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARQf/aAAgBAwEBPxDVWGc7X//EABcRAQADAAAAAAAAAAAAAAAAAAEAEDH/2gAIAQIBAT8QwiW//8QAHRABAAMAAwADAAAAAAAAAAAAAQARITFBUWGBwf/aAAgBAQABPxAY3KXhUPmB0AgtlMOgA5YtnJy9GP29zgyMKx89qFzkD9YCiX1suaLiiKFdn//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/a54ddbd06ee1844715eced643d80ff8b/8ac56/image1.webp 240w,
-/static/a54ddbd06ee1844715eced643d80ff8b/d3be9/image1.webp 480w,
-/static/a54ddbd06ee1844715eced643d80ff8b/e46b2/image1.webp 960w,
-/static/a54ddbd06ee1844715eced643d80ff8b/a9a89/image1.webp 1024w&quot;
+              srcset=&quot;/static/7f550ebb0c63c589e93dc2ebb648aa79/8ac56/image1.webp 240w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/d3be9/image1.webp 480w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/e46b2/image1.webp 960w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/a9a89/image1.webp 1024w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/a54ddbd06ee1844715eced643d80ff8b/8ff5a/image1.png 240w,
-/static/a54ddbd06ee1844715eced643d80ff8b/e85cb/image1.png 480w,
-/static/a54ddbd06ee1844715eced643d80ff8b/d9199/image1.png 960w,
-/static/a54ddbd06ee1844715eced643d80ff8b/2bef9/image1.png 1024w&quot;
+            srcset=&quot;/static/7f550ebb0c63c589e93dc2ebb648aa79/09b79/image1.jpg 240w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/7cc5e/image1.jpg 480w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/6a068/image1.jpg 960w,
+/static/7f550ebb0c63c589e93dc2ebb648aa79/72e01/image1.jpg 1024w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/png&quot;
+            type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/a54ddbd06ee1844715eced643d80ff8b/d9199/image1.png&quot;
+            src=&quot;/static/7f550ebb0c63c589e93dc2ebb648aa79/6a068/image1.jpg&quot;
             alt=&quot;You hold the wheel. AI rides shotgun.&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
@@ -82,46 +158,46 @@
 &lt;p&gt;When you give each task your full attention, the quality of your output goes up - and so does the quality of your life. Things get done right the first time. You’re not constantly going back to patch something you rushed through. That frees up mental space you didn’t know you were losing.&lt;/p&gt;
 &lt;p&gt;Small tasks done well, day after day, compound. You start noticing the difference - less rework, less stress, more headspace. Your daily life runs smoother because you’re not constantly cleaning up after yourself. And that adds up to something worth having.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;So yeah, sweat the small stuff. It’s where the big stuff begins. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why I Use Ghostty as My Terminal on macOS]]></title><description><![CDATA[After a month with Ghostty, I'm not going back to iTerm2. Here's why, plus my full config.]]></description><link>https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</guid><pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I switched from iTerm2 to &lt;a href=&quot;https://ghostty.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ghostty&lt;/a&gt; a month ago and I’m not going back. For those who haven’t heard of it, Ghostty is a relatively new terminal emulator built from scratch in Zig with GPU-accelerated rendering. I first noticed the difference during a long Claude Code session, iTerm2 was lagging as output streamed in, and I figured there had to be something faster. This post is a practical walkthrough of why I switched and my full config, so you can try it yourself.&lt;/p&gt;
+&lt;p&gt;So yeah, sweat the small stuff. It’s where the big stuff begins.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why I Use Ghostty as My Terminal on macOS]]></title><description><![CDATA[After a month with Ghostty, I'm not going back to iTerm2. Here's why, plus my full config.]]></description><link>https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-i-use-ghostty-as-my-terminal-on-macos</guid><pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I switched from iTerm2 to &lt;a href=&quot;https://ghostty.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ghostty&lt;/a&gt; a month ago and I’m not going back. For those who haven’t heard of it, Ghostty is a relatively new terminal emulator built from scratch in Zig with GPU-accelerated rendering. I first noticed the difference during a long Claude Code session, iTerm2 was lagging as output streamed in, and I figured there had to be something faster. This post is a practical walkthrough of why I switched and my full config, so you can try it yourself.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/ca640/image1.png&quot;
+    href=&quot;/static/d19d2f48ff7c18ca775725e0734a982c/16845/image1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 48.75000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkUlEQVR42o2R627bMAyF/S4b2qa2fJMtX6RIlhInTdM4zWVbEWDPskc/oxV3CLYV6I8P55CUaFoMvl1+onYDZHeAtK9ozQChBxREqXdoFieopx/Qmzc0yxPy+Y4YkBFMDQhH5B6z5gV8fUHw6+2IvVmBN8/g3CFiczyEklCee/KeR4k7n5dTXmH2TjRqC55bBC/rHbRaoqws4rRFkqn/kk5k7+RX0kwiJU1SiVw4BP32AuNO6BZHGPrlzh3Jn+D6s4/d8gxLNd3t/Rl/zh38OWMPxJHqZzRqi0wsEdj+O1q5AxcrmvIJhVh75aR88mW1QUGaj7nqyuizoidPd+oNotQi5NRQuFc8JAosc5il9H6xJgzlDO6Yxtdo/ocvHxFOUI+g7reIa02T9fQFhTCeg6UGcd4hTDRmTH2Ke1pKlNFSarEAi1rEsUTyNwk9OE1/S+KRk14Z8+N9UXYIKtpuGNaImfyAduJfz27iiIbi3CBYuGeUhUFNjStB6ul8XFfdhL3mRy/sVO9Q3dTLQsOaFX4DZ2BLmBU6cZ4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 48.75000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAc2FhR//xAAWEAEBAQAAAAAAAAAAAAAAAAABACD/2gAIAQEAAQUCcl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAACAwEAAAAAAAAAAAAAAAAAAREgcUH/2gAIAQEAAT8haX0nRPaP/9oADAMBAAIAAwAAABAP/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QV//EABoQAQACAwEAAAAAAAAAAAAAAAEAIRFBcfH/2gAIAQEAAT8QFV20xHuUVTsQy9mCAw1uf//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/8ac56/image1.webp 240w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/d3be9/image1.webp 480w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/e46b2/image1.webp 960w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/f992d/image1.webp 1440w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/882b9/image1.webp 1920w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/13b5c/image1.webp 2406w&quot;
+              srcset=&quot;/static/d19d2f48ff7c18ca775725e0734a982c/8ac56/image1.webp 240w,
+/static/d19d2f48ff7c18ca775725e0734a982c/d3be9/image1.webp 480w,
+/static/d19d2f48ff7c18ca775725e0734a982c/e46b2/image1.webp 960w,
+/static/d19d2f48ff7c18ca775725e0734a982c/f992d/image1.webp 1440w,
+/static/d19d2f48ff7c18ca775725e0734a982c/882b9/image1.webp 1920w,
+/static/d19d2f48ff7c18ca775725e0734a982c/13b5c/image1.webp 2406w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/8ff5a/image1.png 240w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/e85cb/image1.png 480w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/d9199/image1.png 960w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/07a9c/image1.png 1440w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/29114/image1.png 1920w,
-/static/d6a6d4d24e50e90f97789f7c35cd1041/ca640/image1.png 2406w&quot;
+            srcset=&quot;/static/d19d2f48ff7c18ca775725e0734a982c/09b79/image1.jpg 240w,
+/static/d19d2f48ff7c18ca775725e0734a982c/7cc5e/image1.jpg 480w,
+/static/d19d2f48ff7c18ca775725e0734a982c/6a068/image1.jpg 960w,
+/static/d19d2f48ff7c18ca775725e0734a982c/644c5/image1.jpg 1440w,
+/static/d19d2f48ff7c18ca775725e0734a982c/0f98f/image1.jpg 1920w,
+/static/d19d2f48ff7c18ca775725e0734a982c/16845/image1.jpg 2406w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/png&quot;
+            type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/d6a6d4d24e50e90f97789f7c35cd1041/d9199/image1.png&quot;
+            src=&quot;/static/d19d2f48ff7c18ca775725e0734a982c/6a068/image1.jpg&quot;
             alt=&quot;Ghostty running Claude Code on macOS&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
@@ -385,39 +461,39 @@ keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8c48a/image1.png&quot;
+    href=&quot;/static/f16d819fd15ecbd497ad11b23ef3bde0/0d6e3/image1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 34.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABcUlEQVR42k1Ry07DMBDMLyBo0ySN4yaxHefRJk0LqBRVAoHEo0iUf+CC1CMHPgBx5I+HXVcgDqP1rndnx2Mv1xa2mmI661DWDXKlMQrHCKIDwrFAFCcUY4coFn/1gHKRFUhzjSxXSCYpvKurU+x2GxhboJm1qJspyqpC23W0pEVGC2SaubtDbjDvF7BlhVk3hzLWCeAFHL3nm0vs327wsL3G3f0jLtZrLJcLNNMG7bxHv1iiKA8LlDZ0LqnWOzXKFIgTSWRjB1buSZmQOglFCm1TIzcasaohdemaB0GAIcESkUxT5FoTDA2TBbFwFoxF4ha4J/thhKPjIdqzGW63azy9bPD68YX3z2/s93usV6cQUiLNlPPQD0LowjoSJubItZQ8ZHs8bmKpQghUlUZda7TnKzT90vmp8wwR9RhbuidzLw/yHJMxRiSKSRmeMsb9bkQXJ/4IAz/EycDHYEigfDgK3AB/zC/R/9oky92ZwR7+AGbOyxX4tlfhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 34.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAcqgQD//xAAWEAADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQEAAQUCof8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFRABAQAAAAAAAAAAAAAAAAAAECH/2gAIAQEABj8Cr//EABgQAAMBAQAAAAAAAAAAAAAAAAERUQAQ/9oACAEBAAE/IWwYBnz/2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIWFxkbH/2gAIAQEAAT8QcnqK9IVSvBOz/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8ac56/image1.webp 240w,
-/static/b3d9c80e38d7c3bb623775940b124a38/d3be9/image1.webp 480w,
-/static/b3d9c80e38d7c3bb623775940b124a38/e46b2/image1.webp 960w,
-/static/b3d9c80e38d7c3bb623775940b124a38/f992d/image1.webp 1440w,
-/static/b3d9c80e38d7c3bb623775940b124a38/882b9/image1.webp 1920w,
-/static/b3d9c80e38d7c3bb623775940b124a38/611d0/image1.webp 2096w&quot;
+              srcset=&quot;/static/f16d819fd15ecbd497ad11b23ef3bde0/8ac56/image1.webp 240w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/d3be9/image1.webp 480w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/e46b2/image1.webp 960w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/f992d/image1.webp 1440w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/882b9/image1.webp 1920w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/611d0/image1.webp 2096w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/8ff5a/image1.png 240w,
-/static/b3d9c80e38d7c3bb623775940b124a38/e85cb/image1.png 480w,
-/static/b3d9c80e38d7c3bb623775940b124a38/d9199/image1.png 960w,
-/static/b3d9c80e38d7c3bb623775940b124a38/07a9c/image1.png 1440w,
-/static/b3d9c80e38d7c3bb623775940b124a38/29114/image1.png 1920w,
-/static/b3d9c80e38d7c3bb623775940b124a38/8c48a/image1.png 2096w&quot;
+            srcset=&quot;/static/f16d819fd15ecbd497ad11b23ef3bde0/09b79/image1.jpg 240w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/7cc5e/image1.jpg 480w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/6a068/image1.jpg 960w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/644c5/image1.jpg 1440w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/0f98f/image1.jpg 1920w,
+/static/f16d819fd15ecbd497ad11b23ef3bde0/0d6e3/image1.jpg 2096w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/png&quot;
+            type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/b3d9c80e38d7c3bb623775940b124a38/d9199/image1.png&quot;
+            src=&quot;/static/f16d819fd15ecbd497ad11b23ef3bde0/6a068/image1.jpg&quot;
             alt=&quot;Completing the 500km Rapha Challenge during Christmas week&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
@@ -434,45 +510,45 @@ keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
 &lt;p&gt;The reason this is so hard to see is because it happens slowly, in small steps, over a long time. By the time it’s worked, you’ll feel like you’re just making free choices, but those choices are being made inside a system designed to nudge you in a certain direction. I’ve sat on the couch with my family, a movie on, and still reached for my phone. Not because anything important was happening. Just because the pull was there. The goal of these apps is not to enrich your life. It’s to keep you scrolling so you produce, consume, and comply.&lt;/p&gt;
 &lt;p&gt;The people who benefit most from this system are the ones who want you distracted, dependent, and comfortable. But they cannot control your mind completely. You still have the freedom to think for yourself. Recognizing that you’ve been conditioned is the first step. Deciding to do something about it is the second.&lt;/p&gt;
 &lt;p&gt;I also think real confidence only comes from self-control. Not from escapes that numb you, but from doing the things that are actually hard. Finishing the Rapha 500km during Christmas week, when everyone else was resting, reminded me of that. Your actions either build you up or they don’t. There’s no shortcut around it.&lt;/p&gt;
-&lt;p&gt;If you ride too, let’s connect on &lt;a href=&quot;https://www.strava.com/athletes/75785503&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Strava&lt;/a&gt;. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Uploading Large Videos in Flutter: Surviving Background Kills on iOS and Android]]></title><description><![CDATA[How we solved large video uploads that kept dying when users switched apps.]]></description><link>https://cedricsarigumba.com/posts/background-video-uploads-in-flutter</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/background-video-uploads-in-flutter</guid><pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;If you ride too, let’s connect on &lt;a href=&quot;https://www.strava.com/athletes/75785503&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Strava&lt;/a&gt;. 🤝&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Uploading Large Videos in Flutter: Surviving Background Kills on iOS and Android]]></title><description><![CDATA[How we solved large video uploads that kept dying when users switched apps.]]></description><link>https://cedricsarigumba.com/posts/background-video-uploads-in-flutter</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/background-video-uploads-in-flutter</guid><pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9f0a378863b4c00c69d50ebb1ce25437/56fb6/image1.png&quot;
+    href=&quot;/static/c42d7f0d41f05e3fbda07736f73b0a26/3d8dd/image1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVR42gGfAmD9APljEe1oF9h6JgmjpBWKjctVHNppI95uI/x7FfSRHk+5hhufmj1tawo5ZgxYhhBjiSpdeIeFWBO4pwq2rQD5ZRK1czlWbGkGfZxnjW7ZaioIcqCDZ1OfeU96eVlqe2N1fmZ/c0oSd36Aclc5YXALYo7HajLAlTRhiGsA/2EHvmgvD2GSb21wj2RUw3NGgWpjkl9QLZuQKZGBEpeNJ56ShFdBE2l9T29uL2l2Anq/lnB2/k8G73EdAGR1W6xPJ0yCagVjggh8i4lUP7dgRUNdbhOopEjCpTzDrx2Pml94b1FVVANOfQdRfmNmZIlaSDlfcBZmhgADxLcTYncKO2BBeXNgmHmWaEs+XYYnaH91vqaM6fab7Pdhra2qcjxim3MWh4cZO1tnQzx0YElEW2lbWV0AhaZkfoRYll0wkEwtUzlDfV5afo2XuYBR+6p5bMzyq+H3k8bC2mQbtX08NZaBqGwzHDhaW05ht3M7Uq9/AP9wCuV4HsaSS1uMgil+j0d9lHWPmSRVbViun4fX3HO7yTuwrKl7RpRbNgRKazo/SxQyWk90nEyLggC5uADnRA3dWxeocTw5ZHM/gY9Kg4wwXGxpZmQoqps6kYszhokNpp9Gn4iCTjtGOk8UUXhwTk/NbTWMblNke2YA+nUUg2FJCFOVNTRJAVaaAFeaFGt4WVZYQo6EUaKGOJGIEYaV3FghvnI+JXKPNY6UKZueRoSEwns++mwQAP+THZBqQRhCejV1bg+juhdEdS1oZQtYiwFmkjl7gVh2b3RhUnxrVVaDdAB7m4VrTHKFXKKlYFp4axRjhwD7hRr8cBDTUhYeyKcMn50AK2FtYU24fDuXa0TrUhHtQwr/QQBkbF4AiKYJiqCfdEf/VQVhZF4GY5MNYZP5sxet3jsDZwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/aAAwDAQACEAMQAAABmyGLSQpf/8QAGRABAQEAAwAAAAAAAAAAAAAAARECAAMS/9oACAEBAAEFAm3tCFmw9c0t/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECEWH/2gAIAQMBAT8BqW94U1p//8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACESH/2gAIAQIBAT8BqnIVU2f/xAAbEAACAQUAAAAAAAAAAAAAAAAAARARMTJBYf/aAAgBAQAGPwIyqaF1xc//xAAdEAACAQQDAAAAAAAAAAAAAAAAAREhMUFRYXGR/9oACAEBAAE/IYGlrgQRw7DstlMllbfDKJWo/9oADAMBAAIAAwAAABA4z//EABwRAQABBAMAAAAAAAAAAAAAAAEAESFBYYHR4f/aAAgBAwEBPxBBrZPNfWAY40dz/8QAHBEAAQMFAAAAAAAAAAAAAAAAAQARMUFhseHw/9oACAECAQE/EGTZI7CCArfS/8QAHBABAQACAgMAAAAAAAAAAAAAAREAMSFRQXHB/9oACAEBAAE/EFwI2h4nz1h5QHhY9YkkIhVwiAsF2YdFYobwIAAwBmf/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/9f0a378863b4c00c69d50ebb1ce25437/8ac56/image1.webp 240w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/d3be9/image1.webp 480w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/e46b2/image1.webp 960w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/f992d/image1.webp 1440w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/882b9/image1.webp 1920w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/5eb16/image1.webp 2752w&quot;
+              srcset=&quot;/static/c42d7f0d41f05e3fbda07736f73b0a26/8ac56/image1.webp 240w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/d3be9/image1.webp 480w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/e46b2/image1.webp 960w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/f992d/image1.webp 1440w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/882b9/image1.webp 1920w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/5eb16/image1.webp 2752w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/9f0a378863b4c00c69d50ebb1ce25437/8ff5a/image1.png 240w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/e85cb/image1.png 480w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/d9199/image1.png 960w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/07a9c/image1.png 1440w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/29114/image1.png 1920w,
-/static/9f0a378863b4c00c69d50ebb1ce25437/56fb6/image1.png 2752w&quot;
+            srcset=&quot;/static/c42d7f0d41f05e3fbda07736f73b0a26/09b79/image1.jpg 240w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/7cc5e/image1.jpg 480w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/6a068/image1.jpg 960w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/644c5/image1.jpg 1440w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/0f98f/image1.jpg 1920w,
+/static/c42d7f0d41f05e3fbda07736f73b0a26/3d8dd/image1.jpg 2752w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/png&quot;
+            type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/9f0a378863b4c00c69d50ebb1ce25437/d9199/image1.png&quot;
+            src=&quot;/static/c42d7f0d41f05e3fbda07736f73b0a26/6a068/image1.jpg&quot;
             alt=&quot;Uploading Large Videos in Flutter&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
@@ -714,39 +790,39 @@ keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/9568a/image1.jpg&quot;
+    href=&quot;/static/873071862eda7ba8f1fe397579328835/9568a/image1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/aAAwDAQACEAMQAAAB6vIWga00KJ5H20bAs6If/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQISAAMQESEyQv/aAAgBAQABBQJ3WMhLRq93jFzrd5waCMSG49uAMf/EABgRAAIDAAAAAAAAAAAAAAAAAAACEBIi/9oACAEDAQE/AYfJY//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESE//aAAgBAgEBPwEpkFo5o//EAB4QAAIBBQADAAAAAAAAAAAAAAABIQIQETFBYXGR/9oACAEBAAY/AnKMKqTn08Cqzo6SvRGrwrf/xAAcEAEAAwACAwAAAAAAAAAAAAABABExIUFRYXH/2gAIAQEAAT8hrjlLQR+JRAoK1B1DlkGjFlY127lmAL3KAKXNI9wUAIh4n//aAAwDAQACAAMAAAAQQw0x/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCaPHCUG70//8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAECAQE/EApbqZ1gCXf/xAAgEAEAAgICAQUAAAAAAAAAAAABABFBYSExUXGBkbHw/9oACAEBAAE/EAX1g83FdpdFsbitOe1EFh7v7UKCUKHGY9JnV1CKMzsvzfqNjIpZKPTuJUYF85qWoFO15hYjRAPT4n//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/aAAwDAQACEAMQAAAB6vIWga00KJ5H20bAs6If/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQISAAMQESEyQv/aAAgBAQABBQJ3WMhLRq93jFzrd5waCMSG49uAMf/EABgRAAIDAAAAAAAAAAAAAAAAAAACEBIi/9oACAEDAQE/AYfJY//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESE//aAAgBAgEBPwEpkFo5o//EAB4QAAIBBQADAAAAAAAAAAAAAAABIQIQETFBYXGR/9oACAEBAAY/AnKMKqTn08Cqzo6SvRGrwrf/xAAdEAEAAwABBQAAAAAAAAAAAAABABExQSFRYXGB/9oACAEBAAE/Ia45S0EfSUQKCtQdQ6sg0fiWVjXLmWYAvMoApc0jzBQAiHaf/9oADAMBAAIAAwAAABBDDTH/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EJo8cJQbvT//xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QClupmWAJd//EACAQAQACAgIBBQAAAAAAAAAAAAEAETFBIWFxUYGRsfD/2gAIAQEAAT8QBfWjzcV2l0W13Fac+1EFh7v7qFBKFDrcekz5VCKMzJfrfqNjIpZKPGYlRgXzupagUyvcLMVogHD4n//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/8ac56/image1.webp 240w,
-/static/32b3e99c45ab6df94eab97362a7f212c/d3be9/image1.webp 480w,
-/static/32b3e99c45ab6df94eab97362a7f212c/e46b2/image1.webp 960w,
-/static/32b3e99c45ab6df94eab97362a7f212c/f992d/image1.webp 1440w,
-/static/32b3e99c45ab6df94eab97362a7f212c/882b9/image1.webp 1920w,
-/static/32b3e99c45ab6df94eab97362a7f212c/e51ec/image1.webp 3024w&quot;
+              srcset=&quot;/static/873071862eda7ba8f1fe397579328835/8ac56/image1.webp 240w,
+/static/873071862eda7ba8f1fe397579328835/d3be9/image1.webp 480w,
+/static/873071862eda7ba8f1fe397579328835/e46b2/image1.webp 960w,
+/static/873071862eda7ba8f1fe397579328835/f992d/image1.webp 1440w,
+/static/873071862eda7ba8f1fe397579328835/882b9/image1.webp 1920w,
+/static/873071862eda7ba8f1fe397579328835/e51ec/image1.webp 3024w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/09b79/image1.jpg 240w,
-/static/32b3e99c45ab6df94eab97362a7f212c/7cc5e/image1.jpg 480w,
-/static/32b3e99c45ab6df94eab97362a7f212c/6a068/image1.jpg 960w,
-/static/32b3e99c45ab6df94eab97362a7f212c/644c5/image1.jpg 1440w,
-/static/32b3e99c45ab6df94eab97362a7f212c/0f98f/image1.jpg 1920w,
-/static/32b3e99c45ab6df94eab97362a7f212c/9568a/image1.jpg 3024w&quot;
+            srcset=&quot;/static/873071862eda7ba8f1fe397579328835/09b79/image1.jpg 240w,
+/static/873071862eda7ba8f1fe397579328835/7cc5e/image1.jpg 480w,
+/static/873071862eda7ba8f1fe397579328835/6a068/image1.jpg 960w,
+/static/873071862eda7ba8f1fe397579328835/644c5/image1.jpg 1440w,
+/static/873071862eda7ba8f1fe397579328835/0f98f/image1.jpg 1920w,
+/static/873071862eda7ba8f1fe397579328835/9568a/image1.jpg 3024w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/32b3e99c45ab6df94eab97362a7f212c/6a068/image1.jpg&quot;
+            src=&quot;/static/873071862eda7ba8f1fe397579328835/6a068/image1.jpg&quot;
             alt=&quot;Meditations by Marcus Aurelius&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
@@ -791,7 +867,7 @@ keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
 &lt;h2 id=&quot;how-to-read-it&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-to-read-it&quot; aria-label=&quot;how to read it permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to Read It&lt;/h2&gt;
 &lt;p&gt;I don’t think &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt; is a book you need to read cover to cover in one sitting. I usually read it early in the morning during my coffee time, or at random moments during the day when I want to pause and reflect.&lt;/p&gt;
 &lt;h2 id=&quot;final-thought&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#final-thought&quot; aria-label=&quot;final thought permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Final Thought&lt;/h2&gt;
-&lt;p&gt;So if you have a chance to grab &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt;, please check it out. Hopefully it helps you as much as it helped me. ✌️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Host an Almost Free Blog Site]]></title><description><![CDATA[Explaining the technology choices behind hosting a low-cost personal blog.]]></description><link>https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</guid><pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;So if you have a chance to grab &lt;strong&gt;&lt;em&gt;Meditations&lt;/em&gt;&lt;/strong&gt;, please check it out. Hopefully it helps you as much as it helped me.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Host an Almost Free Blog Site]]></title><description><![CDATA[Explaining the technology choices behind hosting a low-cost personal blog.]]></description><link>https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-to-host-an-almost-free-blog-site</guid><pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
     &gt;
@@ -962,5 +1038,4 @@ keybind = cmd+comma=reload_config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
 &lt;p&gt;There’s no perfect way to write it. Some mission statements are just one sentence. Others cover areas like family, work, health, and personal growth. What’s important is that it reflects who you really are, not an idealized version of yourself.&lt;/p&gt;
 &lt;h2 id=&quot;a-real-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-real-example&quot; aria-label=&quot;a real example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A Real Example&lt;/h2&gt;
 &lt;p&gt;Here is my personal mission statement: seven commitments, each specific and actionable.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;✌️&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://cedricsarigumba.notion.site/Personal-Mission-Statements-13478639b44d8017826ac2f162ead615&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Read it here →&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
