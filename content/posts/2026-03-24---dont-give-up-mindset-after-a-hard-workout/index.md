@@ -12,7 +12,7 @@ tags:
   - "Self-Discipline"
   - "Cycling"
 description: "Finishing 500km over Christmas week taught me more about focus and self-control than I expected."
-socialImage: "./image.jpg"
+socialImage: "./image1.jpg"
 ---
 
 Last December, I completed the **500km Rapha Challenge**. For those who don't know, the challenge runs from December 25 to December 31, seven days, right in the middle of Christmas and New Year. That timing is part of what makes it hard. Everyone around you is resting, eating too much, celebrating. It's the one week of the year where nobody expects you to be disciplined, and almost no one is. The festive atmosphere is everywhere, and the social pressure to just relax and enjoy it is real. That's exactly what makes showing up on the bike every single day during that week so difficult.

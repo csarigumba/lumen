@@ -10,7 +10,7 @@ tags:
   - "Voice to Text"
   - "Developer Tools"
 description: "A one-time purchase, local processing, and flexible model options made the switch easy."
-socialImage: "./image.jpg"
+socialImage: "./image1.png"
 ---
 
 ![Why I Switched from Wispr Flow to VoiceInk](/image1.png)

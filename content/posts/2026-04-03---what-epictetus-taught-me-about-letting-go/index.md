@@ -12,6 +12,7 @@ tags:
   - "Mindset"
   - "Life Tips"
 description: "Some people suffer twice. Once while doing the work, and again while worrying about the result. Here's what Epictetus taught me about focusing on what I can control."
+socialImage: "./image1.jpg"
 ---
 
 > "Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our actions. The things in our control are by nature free, unrestrained, unhindered; but those not in our control are weak, slavish, restrained, belonging to others. Remember, then, that if you suppose that things which are slavish by nature are also free, and that what belongs to others is your own, then you will be hindered. You will lament, you will be disturbed, and you will find fault both with gods and men. But if you suppose that only to be your own which is your own, and what belongs to others such as it really is, then no one will ever compel you or restrain you. Further, you will find fault with no one or accuse no one. You will do nothing against your will. No one will hurt you, you will have no enemies, and you not be harmed."
@@ -42,6 +43,8 @@ Three different situations, same trap. Do something meaningful, then let the wor
 Here's a metaphor I once read that stuck with me. I can't remember where I first heard it, but it goes like this.
 
 Imagine you're an archer, and there's a target in front of you. You take your time. You steady your breathing, adjust your stance, aim carefully. You do everything right. Then you release the arrow.
+
+![An arrow mid-flight against a sunset sky](./image1.jpg)
 
 But the wind picks up. Or the bowstring snaps. Or the target shifts at the last moment. No matter how perfect your aim was, the outcome was never fully yours to decide.
 

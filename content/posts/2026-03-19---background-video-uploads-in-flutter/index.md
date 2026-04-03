@@ -10,7 +10,7 @@ tags:
   - "Flutter"
   - "Mobile Development"
 description: "How we solved large video uploads that kept dying when users switched apps."
-socialImage: "./image.jpg"
+socialImage: "./image1.jpg"
 ---
 
 ![Uploading Large Videos in Flutter](/image1.jpg)

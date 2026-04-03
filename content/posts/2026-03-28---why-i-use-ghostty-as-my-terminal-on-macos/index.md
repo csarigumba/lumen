@@ -12,7 +12,7 @@ tags:
   - "Ghostty"
   - "Claude Code"
 description: "After a month with Ghostty, I'm not going back to iTerm2. Here's why, plus my full config."
-socialImage: "./image.jpg"
+socialImage: "./image1.jpg"
 ---
 
 I switched from iTerm2 to [Ghostty](https://ghostty.org/) a month ago and I'm not going back. For those who haven't heard of it, Ghostty is a relatively new terminal emulator built from scratch in Zig with GPU-accelerated rendering. I first noticed the difference during a long Claude Code session, iTerm2 was lagging as output streamed in, and I figured there had to be something faster. This post is a practical walkthrough of why I switched and my full config, so you can try it yourself.

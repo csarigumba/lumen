@@ -12,7 +12,7 @@ tags:
   - "Book Recommendation"
   - "Mindset"
 description: "A Roman Emperor's private journal."
-socialImage: "./image.jpg"
+socialImage: "./image1.jpg"
 ---
 
 I've read a handful of self-improvement books. Most of them follow a pattern: different packaging but the same advice. But there's one that sits apart from the rest and really sticks with me. It's **_Meditations_ by Marcus Aurelius**.

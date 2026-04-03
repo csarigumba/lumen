@@ -12,7 +12,7 @@ tags:
   - "Mission Statement"
   - "Mindset"
 description: "Are You Going Somewhere, or Just Busy?"
-socialImage: "./image.jpg"
+socialImage: "./image1.png"
 ---
 
 Many of us keep busy without really asking why. Stephen Covey points this out in Habit 2 of _The 7 Habits of Highly Effective People_: Begin with the End in Mind. His solution is to create a personal mission statement.

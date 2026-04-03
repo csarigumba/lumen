@@ -11,7 +11,6 @@ tags:
   - "Cloud Batch"
   - "GPU"
 description: "How to submit a Cloud Batch GPU job programmatically, with GCS volume mounts and environment variables."
-socialImage: "./image.jpg"
 ---
 
 I needed to run some processing that requires a GPU. Serverless functions have a hard timeout limit, and this process can easily run longer than that. Running it on a dedicated GCE instance is not an option either since the workload is on-demand, not something that needs a machine running 24/7. The cleaner pattern is to submit a Cloud Batch job from a serverless function and return immediately. The batch job spins up a GPU machine, does the heavy processing, writes results to GCS, and shuts down with no idle cost and no timeout pressure on the caller.

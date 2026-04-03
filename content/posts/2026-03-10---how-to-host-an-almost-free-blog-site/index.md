@@ -11,7 +11,7 @@ tags:
   - "GitHub Pages"
   - "Static Site"
 description: "Explaining the technology choices behind hosting a low-cost personal blog."
-socialImage: "./image.jpg"
+socialImage: "./image1.png"
 ---
 
 ![How to Host an Almost Free Blog Site](/image1.png)

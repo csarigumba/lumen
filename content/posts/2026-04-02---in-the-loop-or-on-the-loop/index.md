@@ -11,7 +11,7 @@ tags:
   - "Developer Productivity"
   - "Claude Code"
 description: "The short answer: don't abandon the keyboard, but don't refuse the copilot either. The sweet spot is knowing when to drive and when to delegate."
-socialImage: "./image.jpg"
+socialImage: "./image1.jpg"
 ---
 
 I've been using AI coding agents for almost a year now. I've tried GitHub Copilot, Cursor, and Claude Code, and I've settled on Claude Code as my primary tool. The productivity gains are real. I ship faster, I prototype in hours instead of days, and I've built things I probably wouldn't have attempted before. But after months of pushing AI further into my workflow, letting it handle entire features end to end, something started to feel off.
