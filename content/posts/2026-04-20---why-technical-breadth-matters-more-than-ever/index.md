@@ -65,6 +65,6 @@ This has changed how I spend my learning time.
 
 I’ve picked up a habit from the same book: spending 20 minutes a day learning a specific topic. No big commitment, no deep dive. Just enough to move things from “stuff I don’t know” into “stuff I know I don’t know.”
 
-I’ll share more about this in my next post. For now, what I’m convinced of is this: the engineers who’ll do well in the next few years aren’t the ones with the deepest stack. They’re the ones with the widest map.
+I’ll share more about this in my next post — [Twenty Minutes a Day for Technical Breadth](/posts/twenty-minutes-a-day-for-technical-breadth). For now, what I’m convinced of is this: the engineers who’ll do well in the next few years aren’t the ones with the deepest stack. They’re the ones with the widest map.
 
 ✌️
