@@ -44,7 +44,7 @@ A mission statement acts like a compass. A map shows you how to get somewhere, b
 
 ## How to Write One
 
-![Steps on how to write a personal mission statement](/image1.png)
+![Steps on how to write a personal mission statement](./image1.png)
 
 Covey suggests a thought experiment: imagine your own funeral. What would you want people to say about you as a partner, colleague, or friend? The life you want remembered is the one your mission statement should guide you toward.
 

@@ -13,7 +13,7 @@ description: "How we solved large video uploads that kept dying when users switc
 socialImage: "./image1.jpg"
 ---
 
-![Uploading Large Videos in Flutter](/image1.jpg)
+![Uploading Large Videos in Flutter](./image1.jpg)
 
 If you've ever tried uploading large video files from a Flutter app, you've probably hit this: the user switches to another app, and the upload silently dies. On iOS especially, this happens fast. The system kills your app, and the upload is gone. No warning, no callback, nothing.
 

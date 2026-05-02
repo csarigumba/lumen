@@ -21,7 +21,7 @@ Lately, I’m starting to think the rules have shifted. Working with AI every da
 
 ## Two Tiers from the Book
 
-![Technical breadth pyramid from Fundamentals of Software Architecture](/image1.png)
+![Technical breadth pyramid from Fundamentals of Software Architecture](./image1.png)
 
 I picked this framing up from _Fundamentals of Software Architecture_ by Mark Richards and Neal Ford. They describe a kind of knowledge pyramid for technologists that I keep coming back to.
 

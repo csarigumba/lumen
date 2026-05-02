@@ -14,7 +14,7 @@ description: "Explaining the technology choices behind hosting a low-cost person
 socialImage: "./image1.png"
 ---
 
-![How to Host an Almost Free Blog Site](/image1.png)
+![How to Host an Almost Free Blog Site](./image1.png)
 
 I wanted a blog that I actually owned. Not a Medium profile or a Dev.to account, but something on my terms.
 

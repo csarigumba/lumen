@@ -13,7 +13,7 @@ description: "A one-time purchase, local processing, and flexible model options 
 socialImage: "./image1.png"
 ---
 
-![Why I Switched from Wispr Flow to VoiceInk](/image1.png)
+![Why I Switched from Wispr Flow to VoiceInk](./image1.png)
 
 I’ve been using voice-to-text tools for a while now. They save time, reduce friction when writing, and allow me to capture thoughts faster than typing. Recently, I switched from [Wispr Flow](https://wisprflow.ai/) to [VoiceInk](https://tryvoiceink.com/), and I want to share why.
 
