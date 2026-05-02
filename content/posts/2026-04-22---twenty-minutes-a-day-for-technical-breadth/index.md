@@ -21,7 +21,7 @@ The idea isn’t mine. I picked it up from the same book I leaned on last time, 
 
 ## How I Pick the Topic
 
-I keep a running list of things I want to study. Nothing fancy, just a note in [Obsidian](https://obsidian.md/) I add to whenever I hit something I don’t really understand.
+I keep a running list of things I want to study. Nothing fancy, just a note in [Obsidian](https://obsidian.md/) I add to whenever I hit something I don’t really understand. These days, the items worth committing to graduate from that note onto a [personal technology radar](/posts/keeping-a-personal-technology-radar) I keep in Notion.
 
 The list grows from a few places. Sometimes it’s a gap at work, a tool or service I’ve been using without really getting it. Sometimes it’s a term I keep seeing that I’ve been nodding along to instead of actually learning. And sometimes it’s whatever’s in front of me that day, a new service I need to wire up, or a decision I need more context to make.
 

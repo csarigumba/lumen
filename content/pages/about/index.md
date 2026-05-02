@@ -6,7 +6,7 @@ socialImage: "./image.jpg"
 
 ## About this blog
 
-This blog is about programming, philosophy, or any interesting things I want to share. I write down what I've learned from building systems and making decisions, and document knowledge for others to learn from, and for myself to look back on 30 years from now 😂
+This blog is about programming, philosophy, or any interesting things I want to share. I write down what I've learned from building systems and making decisions, and document knowledge for others to learn from, and for myself to look back on 30 years from now.
 
 ## About me
 
