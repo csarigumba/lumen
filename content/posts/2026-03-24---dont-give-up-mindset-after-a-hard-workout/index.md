@@ -11,6 +11,7 @@ tags:
   - "Mindset"
   - "Self-Discipline"
   - "Cycling"
+  - "Life Tips"
 description: "Finishing 500km over Christmas week taught me more about focus and self-control than I expected."
 socialImage: "./image1.jpg"
 ---

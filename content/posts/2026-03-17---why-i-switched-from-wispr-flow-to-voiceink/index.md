@@ -9,6 +9,7 @@ tags:
   - "Productivity"
   - "Voice to Text"
   - "Developer Tools"
+  - "macOS"
 description: "A one-time purchase, local processing, and flexible model options made the switch easy."
 socialImage: "./image1.png"
 ---

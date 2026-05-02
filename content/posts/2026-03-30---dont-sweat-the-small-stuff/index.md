@@ -8,6 +8,7 @@ category: "Personal Development"
 tags:
   - "Personal Development"
   - "Stoicism"
+  - "Marcus Aurelius"
   - "Productivity"
   - "Life Tips"
   - "Mindset"

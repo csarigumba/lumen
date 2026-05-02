@@ -10,6 +10,7 @@ tags:
   - "Career"
   - "AI"
   - "Software Architecture"
+  - "Learning"
 description: "In the age of generative AI, depth is cheap. Breadth is the new leverage."
 ---
 

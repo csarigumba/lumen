@@ -11,6 +11,7 @@ tags:
   - "Stephen Covey"
   - "Mission Statement"
   - "Mindset"
+  - "Life Tips"
 description: "Are You Going Somewhere, or Just Busy?"
 socialImage: "./image1.png"
 ---

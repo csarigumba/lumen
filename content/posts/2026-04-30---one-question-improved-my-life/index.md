@@ -10,6 +10,7 @@ tags:
   - "Mindset"
   - "Life Tips"
   - "Decision Making"
+  - "Mission Statement"
 description: "A simple question I ask myself in every moment to choose the best next action and live with less regret."
 socialImage: "./image1.png"
 ---

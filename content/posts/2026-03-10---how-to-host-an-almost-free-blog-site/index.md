@@ -10,6 +10,7 @@ tags:
   - "Blogging"
   - "GitHub Pages"
   - "Static Site"
+  - "Gatsby"
 description: "Explaining the technology choices behind hosting a low-cost personal blog."
 socialImage: "./image1.png"
 ---

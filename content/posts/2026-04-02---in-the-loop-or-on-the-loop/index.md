@@ -8,7 +8,7 @@ category: "Software Engineering"
 tags:
   - "Software Engineering"
   - "AI"
-  - "Developer Productivity"
+  - "Career"
   - "Claude Code"
 description: "The short answer: don't abandon the keyboard, but don't refuse the copilot either. The sweet spot is knowing when to drive and when to delegate."
 socialImage: "./image1.jpg"

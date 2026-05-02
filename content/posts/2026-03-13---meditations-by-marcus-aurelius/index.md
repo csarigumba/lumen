@@ -11,6 +11,7 @@ tags:
   - "Marcus Aurelius"
   - "Book Recommendation"
   - "Mindset"
+  - "Life Tips"
 description: "A Roman Emperor's private journal."
 socialImage: "./image1.jpg"
 ---
