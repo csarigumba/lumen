@@ -32,7 +32,7 @@ The point isn't to dwell on past mistakes. It's to look at future regret and pic
 
 But regret minimization only works if your values are solid. You need to know what matters to you, otherwise the question has nothing to lean on. Faith. Family. Health. Honest work. Whatever yours are, write them down and make them real.
 
-This is why I keep a [personal mission statement](/posts/personal-mission-statement). It is not a rulebook, just a reference. When the answer isn't clear, I look at it and the answer usually shows up.
+This is why I keep a [personal mission statement](/posts/why-you-need-a-personal-mission-statement). It is not a rulebook, just a reference. When the answer isn't clear, I look at it and the answer usually shows up.
 
 Don't overthink it. A good move now beats a perfect one that never comes.
 
