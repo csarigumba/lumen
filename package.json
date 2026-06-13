@@ -22,7 +22,7 @@
     "build": "bun run clean && gatsby build",
     "start": "bun run clean && gatsby develop",
     "version": "bun ./internal/scripts/up-version.mjs",
-     "deploy": "gatsby build && gh-pages -d public"
+     "deploy": "gatsby build && gh-pages-clean && gh-pages -d public"
   },
   "dependencies": {
     "@alxshelepenok/diesel": "1.0.1365",
