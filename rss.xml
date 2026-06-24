@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Jun 2026 06:06:16 GMT</lastBuildDate><item><title><![CDATA[The Line I Say to Myself]]></title><description><![CDATA[One sentence I repeat to myself keeps difficult people from running my day. Here's how a mantra works as a filter.]]></description><link>https://cedricsarigumba.com/posts/the-line-i-say-to-myself</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/the-line-i-say-to-myself</guid><pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Jun 2026 06:37:32 GMT</lastBuildDate><item><title><![CDATA[Learning to Enjoy Your Own Company]]></title><description><![CDATA[Learning to be alone, not lonely, is one of the best things you can do for yourself. It builds self-reliance, quiet confidence, and a clearer sense of who you actually are.]]></description><link>https://cedricsarigumba.com/posts/learning-to-enjoy-your-own-company</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/learning-to-enjoy-your-own-company</guid><pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve come to believe that learning to be alone is one of the best things we can do for ourselves. Not lonely, just alone. There’s a difference, and most of us spend a lot of energy avoiding the second one because we’ve confused it with the first.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8aa7ea21aead6973fcc4afa5fc72b109/5b6ee/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLklEQVR42h2SW0zTBxjFmywm2Bu1FAaCLaVFubXQUtrSIrSl3NpSKm2FdWihsKUIzOJgglgcTqfo2IyXxGG2LEQi2XBkwkZkZosPW+ILixHjtmxZ3PZgTDTZkmWPv/3dw0m+5OT7JSfniHKVYvJVEmqKFQx2mDgRr+PPe0v8+/v3/PXTBn///DXPt77k6dY6z37c4Mn9WzzZXObZwzWGu5qIeGv4MB3HZTMgUygQySQZ5GVJMBfJsOmkvDvgZmvpKI9vpfllZYrv5kf4YXGCB8vTbN6YYnMpzcObb3Ntuo8Wp5lwo5W+gJPWWgPWCj0ihSyDHIUYk1ZK1Knh9qVDPPp8hnsLE9ydH2U22c5Xl1L8enuOR6vnWLsyzuGD7TgsRhpqzYQabQxFPHQ322iwlCNSZW6nXC3HrFfiMOoYbrdyZTTCxbEY/QE7c8MhPpmOc3V6gPTgfpJhD5bKMiorSqkylFJfYyARchNrq8PfYEUkEWewM1uBOi8bQ4mOoH0Ps6/72Oc2o9whZ6IvyNnDMXqCHnx7q4m1OnAKEJ+7lmKdBq2mgLLiQmpNZXR4axFJJduRyyTk56rQa3cRclVz+lAE3a48Xtq2DX+diWOJEDG/C5fVgNtWSeluLUWFagrV+eiEnxfKVmWhylK+AIrJUmYK5k6KtBpei3hZv3qUoW43UqmEj2YSLJ9Lkh4IMBJrIRFupkWIZqkqp6p8D/oiDRp1AXm5OSiVQsuZchkq4dBo1Hi8jQQCPs4feYVr4x0YSwp5fuckT9eO8dvNSbauj/PN5TdYmBlg7s0DjPbuo7ezla6glzaPE5vZIAAz5eQoZcSbjNy5nGRzcYz718dYPB6ms9nCP3ff4fGnKR58PMi37yf4bKaH+be6OZMMMRn3M9LVTMy3l7Z6C3ZThRBZKkXzsoKxkJmVqQ42TkX54vSrpEI1DIYd/LEizOeDPlZP9bAwGeXCcJCT/T5S3V76OxrY32THL5RVb6nAWFqEaIdcjL0kn4MeA2fiLs73N3Kix0UqWkdvwMHq2Tjrs3FuTEWZPxLivaSf4we8DHXW091kxees+n9/1eV6dmsL+A/9xbqM6Vy1qAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/8aa7ea21aead6973fcc4afa5fc72b109/8ac56/image1.webp 240w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/d3be9/image1.webp 480w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/e46b2/image1.webp 960w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/f992d/image1.webp 1440w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/b47ac/image1.webp 1672w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/8aa7ea21aead6973fcc4afa5fc72b109/8ff5a/image1.png 240w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/e85cb/image1.png 480w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/d9199/image1.png 960w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/07a9c/image1.png 1440w,
+/static/8aa7ea21aead6973fcc4afa5fc72b109/5b6ee/image1.png 1672w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/8aa7ea21aead6973fcc4afa5fc72b109/d9199/image1.png&quot;
+            alt=&quot;A man walking alone down a quiet street at dawn, before the world wakes up&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;Before the world wakes up.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A lot of people are afraid of being alone. I get it. Silence can feel like something is wrong, like you’re missing out or doing it wrong somehow. So we fill it. We reach for the phone, we make plans we don’t really want, we keep noise running in the background so we never have to sit with our own thoughts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But sitting with your own thoughts is exactly where the good stuff happens.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you spend time by yourself, you start to actually know yourself. Your real strengths, your actual weaknesses, the things you tell yourself you like versus the things you genuinely do. That kind of honesty is hard to come by when you’re always surrounded by other people’s opinions. And knowing yourself, plainly and without the noise, is what makes you stronger.&lt;/p&gt;
+&lt;h2 id=&quot;what-it-looks-like&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-it-looks-like&quot; aria-label=&quot;what it looks like permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What It Looks Like&lt;/h2&gt;
+&lt;p&gt;It’s okay to go to the gym alone. To have a coffee by yourself, no phone, just the coffee. To take a walk with nowhere to be.&lt;/p&gt;
+&lt;p&gt;The more comfortable you get with your own company, &lt;strong&gt;the less you depend on others for your happiness.&lt;/strong&gt; When your mood is tied to who’s around and how they treat you, you’ve handed the steering wheel to everyone but yourself. Time alone hands it back.&lt;/p&gt;
+&lt;p&gt;Then there’s the quiet. No one to perform for, nothing to react to. Just you, working things out. That’s where you figure out who you actually are, and the more you understand yourself, the steadier your confidence gets.&lt;/p&gt;
+&lt;h2 id=&quot;start-small&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#start-small&quot; aria-label=&quot;start small permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Start Small&lt;/h2&gt;
+&lt;p&gt;You don’t have to become a hermit. This isn’t about cutting people off, the people in your life still matter. It’s about not needing them to fill every quiet moment.&lt;/p&gt;
+&lt;p&gt;What helps me is a morning walk every day, before the world wakes up. No noise, no notifications, no one to answer to yet. Just me and my thoughts and an empty street. It’s become the part of the day I rely on most.&lt;/p&gt;
+&lt;p&gt;Try the coffee alone. Take the walk. Sit with the quiet and see what your own thoughts have to say. Get comfortable being the one person you can’t ever leave, and a lot of other things get easier.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Line I Say to Myself]]></title><description><![CDATA[One sentence I repeat to myself keeps difficult people from running my day. Here's how a mantra works as a filter.]]></description><link>https://cedricsarigumba.com/posts/the-line-i-say-to-myself</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/the-line-i-say-to-myself</guid><pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;“Erase the false impressions from your mind by constantly saying to yourself, I have it in my soul to keep out any evil, desire, or any kind of disturbance. Instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gives you.”
 &lt;em&gt;Marcus Aurelius, Meditations 8.29&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
