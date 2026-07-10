@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Jul 2026 08:41:26 GMT</lastBuildDate><item><title><![CDATA[Am I Using My Ego, or Is It Using Me?]]></title><description><![CDATA[The quickest way to your own downfall is to stop examining yourself and start believing you're better than you are. A journal entry for me, and for my sons.]]></description><link>https://cedricsarigumba.com/posts/am-i-using-my-ego-or-is-it-using-me</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/am-i-using-my-ego-or-is-it-using-me</guid><pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Jul 2026 09:33:15 GMT</lastBuildDate><item><title><![CDATA[Why keyset pagination beats OFFSET]]></title><description><![CDATA[OFFSET pagination slows down as you page deeper. I benchmarked OFFSET and keyset pagination on 5 million rows in PostgreSQL: why OFFSET degrades, why keyset stays fast, the tiebreaker mistake that silently skips rows, and when OFFSET is still fine.]]></description><link>https://cedricsarigumba.com/posts/why-keyset-pagination-beats-offset-with-real-benchmarks</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/why-keyset-pagination-beats-offset-with-real-benchmarks</guid><pubDate>Fri, 10 Jul 2026 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;LIMIT ... OFFSET&lt;/code&gt; gets slower the deeper you page, because the database must scan and discard every row before the offset. Keyset pagination (also called cursor pagination) takes the same time no matter how deep you go. Most articles state this without numbers, so I benchmarked both.&lt;/p&gt;
+&lt;h2 id=&quot;the-setup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-setup&quot; aria-label=&quot;the setup permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The setup&lt;/h2&gt;
+&lt;p&gt;The test table is an append-only event log: logins, order changes, payments. Tables like this grow to tens of millions of rows, and they are where deep pagination actually happens — someone investigating an incident pages back months.&lt;/p&gt;
+&lt;p&gt;Five million rows in Postgres 16 (Docker, default config):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;TABLE&lt;/span&gt; events &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  id          bigserial &lt;span class=&quot;token keyword&quot;&gt;PRIMARY&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;KEY&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  occurred_at timestamptz &lt;span class=&quot;token operator&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  event_type  &lt;span class=&quot;token keyword&quot;&gt;text&lt;/span&gt;        &lt;span class=&quot;token operator&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  actor_id    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;         &lt;span class=&quot;token operator&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  payload     jsonb       &lt;span class=&quot;token operator&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;NULL&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;INTO&lt;/span&gt; events &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; event_type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; actor_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; payload&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt;
+  timestamptz &lt;span class=&quot;token string&quot;&gt;&apos;2024-01-01&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;interval&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;30 seconds&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;user.login&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;order.created&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;order.updated&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+         &lt;span class=&quot;token string&quot;&gt;&apos;payment.captured&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;email.sent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  jsonb_build_object&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;seq&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; generate_series&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;_000_000&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;AS&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;INDEX&lt;/span&gt; idx_events_occurred_at_id &lt;span class=&quot;token keyword&quot;&gt;ON&lt;/span&gt; events &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+VACUUM &lt;span class=&quot;token keyword&quot;&gt;ANALYZE&lt;/span&gt; events&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The index covers both &lt;code class=&quot;language-text&quot;&gt;occurred_at&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;id&lt;/code&gt;, and both techniques use it. OFFSET is slow even with the right index in place.&lt;/p&gt;
+&lt;h2 id=&quot;the-numbers&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-numbers&quot; aria-label=&quot;the numbers permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The numbers&lt;/h2&gt;
+&lt;p&gt;Page size 20, data already in memory, timings from &lt;code class=&quot;language-text&quot;&gt;psql&lt;/code&gt;’s &lt;code class=&quot;language-text&quot;&gt;\timing&lt;/code&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Depth (rows skipped)&lt;/th&gt;
+&lt;th&gt;OFFSET&lt;/th&gt;
+&lt;th&gt;Keyset&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0 (first page)&lt;/td&gt;
+&lt;td&gt;0.4 ms&lt;/td&gt;
+&lt;td&gt;0.15 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10,000&lt;/td&gt;
+&lt;td&gt;1.0 ms&lt;/td&gt;
+&lt;td&gt;0.15 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;100,000&lt;/td&gt;
+&lt;td&gt;8.5 ms&lt;/td&gt;
+&lt;td&gt;0.23 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1,000,000&lt;/td&gt;
+&lt;td&gt;105 ms&lt;/td&gt;
+&lt;td&gt;0.14 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4,900,000&lt;/td&gt;
+&lt;td&gt;452 ms&lt;/td&gt;
+&lt;td&gt;0.16 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;OFFSET grows linearly with depth. Keyset stays flat. At the deepest page the difference is roughly &lt;strong&gt;2800x&lt;/strong&gt;. These numbers are also the best case for OFFSET: the data was in memory and the query only touched the index. When data has to come from disk, OFFSET gets worse and keyset stays about the same.&lt;/p&gt;
+&lt;h2 id=&quot;why-offset-gets-slow&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-offset-gets-slow&quot; aria-label=&quot;why offset gets slow permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why OFFSET gets slow&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;OFFSET 1000000&lt;/code&gt; does not jump to row 1,000,000. An index can find a value quickly, but not a position — nothing in it records which entry is the millionth. So Postgres walks the index from the start, counts off a million entries, discards them, and returns the next 20. The &lt;code class=&quot;language-text&quot;&gt;EXPLAIN ANALYZE&lt;/code&gt; plan shows it (its timings carry measurement overhead, so they differ a little from the table):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Limit  (actual time=93.697..93.699 rows=20)
+  -&gt;  Index Only Scan using idx_events_occurred_at_id on events
+        (actual time=0.013..70.228 rows=1000020)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rows=1000020&lt;/code&gt;: it scanned a million rows to return twenty. Every request pays for every row before the offset.&lt;/p&gt;
+&lt;h2 id=&quot;the-keyset-query&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-keyset-query&quot; aria-label=&quot;the keyset query permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The keyset query&lt;/h2&gt;
+&lt;p&gt;Keyset replaces “skip N rows” with “start after the last row I saw”. The client sends back the values of the last row from the previous page:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; event_type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; actor_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; payload
+&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; events
+&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;2024-12-13 05:20:00+00&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;BY&lt;/span&gt; occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; id
+&lt;span class=&quot;token keyword&quot;&gt;LIMIT&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The first page is the same query without the &lt;code class=&quot;language-text&quot;&gt;WHERE&lt;/code&gt; clause. For a newest-first feed, flip both: &lt;code class=&quot;language-text&quot;&gt;(occurred_at, id) &amp;lt; (...)&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;ORDER BY occurred_at DESC, id DESC&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The index now seeks directly to a value:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Limit  (actual time=0.028..0.031 rows=20)
+  -&gt;  Index Only Scan using idx_events_occurred_at_id on events
+        (actual time=0.028..0.029 rows=20)
+        Index Cond: (ROW(occurred_at, id) &gt; ROW(&apos;2024-12-13 05:20:00+00&apos;, 1000000))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rows=20&lt;/code&gt;: it read exactly what it returned. The cost of a keyset page depends on page size, not depth, which is why the keyset column stays flat.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 844px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0d5bb12cef41c25bf28e8ef02df7e3ff/33e10/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzklEQVR42m1U227UMBTc//8HpKoSCFR4gr7xyq2CqrRUlLZbNrvZ3BNnc3GuzjB2spe2OBrFkU/Gc+Yce4ZpDMNg3kmSwFou4bguFpYF3/fhcm5x7jgObNvGzc0NVqsVkjgx3/f398iyzPw/w54RQ12jL0vURYEqTVHGMRop0TSNQc31rusMmq5BXhfIZAaRCVRt9ZywojJxe4uSquTCQnF3h3az2a3vQtWAZWDjNphjLVysBJUnDjdsDgg5JNX4foBAIwzhBSEqKtsONSjoR8oKnhdAJCniKEEqNkxfMO18JBz6HooeKPrHCAxRBDDlQQgMVbUjLFuJvC3MfJMXiEhkoIlFhrbtJsK2RU+SgSTUDa4YDNtNppFUAp3qoJSCG8TwI2EQUJ3jRyhKORHSZKXV8Ofm4QEVfWzpZ88KKhZmT5ii12lrwjCG7QZYrj1DtiZKWjHTqXaeNxIS8voa8vIS8uoK7WLxSGHeFCNhPyqcL2z8mS8ICxaJDaFuFZXnUKymJqXj/DMH2DraAq2wVA3CMkJAtKp9lrLPwuhvQziWT41FEfSwoocFSWVNQm5C0qyTEEw3o8K0yUwf+iG9i9IRccqOSEhYH3gYRuiiEG2swTmVdZ5r1B/2Yd1rtTFCVlZ75/rx+KbCpmknhWybNkvxPvqIF8uXOF6+xtHiFY7WbzCX1sg3PXp4ZYC37ilO/A848Qj/FMfOO/wtl/vG1k17Ef/GZ/8cX4MLnEWX+BZeIKziHeF29EOP8+QXPoXf8SU8x1n8k/MfjE32hAN9TKICnstUnATOOkHkZahkg6ejZ5XjMEPAWM8WcO0Eob8xsbPD26ZkQXIen4x+Zqx4zoui6/pnhIqxWVEiELxtIt+89cnRxZo9DR7YNruGPrgQHsVM6etj6BQeYp4gNcXO/rd7zn4q2Z+S51hD3yIlNzLfXNNHrOS8qdsRrO52/APwRBefbvdkDwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/0d5bb12cef41c25bf28e8ef02df7e3ff/8ac56/image1.webp 240w,
+/static/0d5bb12cef41c25bf28e8ef02df7e3ff/d3be9/image1.webp 480w,
+/static/0d5bb12cef41c25bf28e8ef02df7e3ff/20d15/image1.webp 844w&quot;
+              sizes=&quot;(max-width: 844px) 100vw, 844px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/0d5bb12cef41c25bf28e8ef02df7e3ff/8ff5a/image1.png 240w,
+/static/0d5bb12cef41c25bf28e8ef02df7e3ff/e85cb/image1.png 480w,
+/static/0d5bb12cef41c25bf28e8ef02df7e3ff/33e10/image1.png 844w&quot;
+            sizes=&quot;(max-width: 844px) 100vw, 844px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/0d5bb12cef41c25bf28e8ef02df7e3ff/33e10/image1.png&quot;
+            alt=&quot;OFFSET vs keyset pagination on the same 5 million row events table with the same index. On the left, OFFSET 1,000,000 walks the index from the top, scanning and discarding a million rows before returning 20, taking 105 ms. On the right, keyset jumps straight to the cursor position and reads exactly the 20 rows it returns, taking 0.14 ms.&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-tiebreaker-is-not-optional&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-tiebreaker-is-not-optional&quot; aria-label=&quot;the tiebreaker is not optional permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The tiebreaker is not optional&lt;/h2&gt;
+&lt;p&gt;The simpler version is wrong:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; occurred_at &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2024-12-13 05:20:00+00&apos;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;-- don&apos;t do this&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Timestamps collide. Busy systems record events with identical timestamps, and batch inserts create hundreds of them at once. If the cursor is only &lt;code class=&quot;language-text&quot;&gt;occurred_at&lt;/code&gt;, the &lt;code class=&quot;language-text&quot;&gt;&gt;&lt;/code&gt; comparison silently skips the remaining rows that share the boundary timestamp — no error, just missing data. Postgres also makes no ordering guarantee among rows with equal sort values, so pages are not even stable between runs.&lt;/p&gt;
+&lt;p&gt;The fix: add &lt;code class=&quot;language-text&quot;&gt;id&lt;/code&gt; to the sort so every row sorts uniquely, and compare both values as a row:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- compare the pair: correct and uses the index cleanly&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;occurred_at&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;$&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;-- hand-written equivalent: easy to get wrong&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; occurred_at &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; $&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+   &lt;span class=&quot;token operator&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;occurred_at &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;AND&lt;/span&gt; id &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; $&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Both mean the same thing, but the row comparison is a single condition Postgres maps directly onto the index, and it is harder to get wrong.&lt;/p&gt;
+&lt;h2 id=&quot;what-the-api-returns&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-the-api-returns&quot; aria-label=&quot;what the api returns permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What the API returns&lt;/h2&gt;
+&lt;p&gt;Clients should never build a cursor, only echo one back. Each response carries an opaque token for the next page:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; ... &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; events ... &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;next_cursor&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eyJvIjoiMjAyNC0xMi0xM1QwNToyMDowMFoiLCJpZCI6MTAwMDAwMH0&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The token is the last row’s &lt;code class=&quot;language-text&quot;&gt;(occurred_at, id)&lt;/code&gt;, base64-encoded. If the API accepted a raw timestamp and id, clients would couple to your sort columns. An opaque token lets you change the sort, add fields, or change the format without breaking callers. A &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;next_cursor&lt;/code&gt; means last page. A cursor that fails to decode is a 400, not a guess.&lt;/p&gt;
+&lt;h2 id=&quot;when-offset-is-still-the-right-call&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#when-offset-is-still-the-right-call&quot; aria-label=&quot;when offset is still the right call permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;When OFFSET is still the right call&lt;/h2&gt;
+&lt;p&gt;Keyset gives up things you might need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Jumping to page N.&lt;/strong&gt; A cursor only knows “after this row”. If the UI needs “go to page 47”, keyset cannot do it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“Page 3 of 812”.&lt;/strong&gt; Page numbers and totals do not exist with cursors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arbitrary sorts.&lt;/strong&gt; Keyset needs an index matching the sort order. If users can sort by any column, every sort needs its own index, and computed sorts (relevance score, distance) have no index to seek into.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small tables.&lt;/strong&gt; At depth 10,000, OFFSET costs one millisecond. An admin screen paging a few thousand rows will never notice, and OFFSET is less code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rule of thumb: infinite scroll, feeds, exports, and any API where clients walk large result sets get keyset. Numbered-page UIs over modest data keep OFFSET.&lt;/p&gt;
+&lt;h2 id=&quot;the-takeaway&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-takeaway&quot; aria-label=&quot;the takeaway permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The takeaway&lt;/h2&gt;
+&lt;p&gt;OFFSET does work proportional to depth. Keyset does work proportional to page size. On five million rows, that is 452 ms versus 0.16 ms for the same twenty rows. Migration has real costs — cursor handling in the API, a tiebreaker column, no page numbers — so decide per endpoint rather than as a blanket rule. But for anything shaped like a feed or an event log, use keyset. The gap only grows with the table.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Am I Using My Ego, or Is It Using Me?]]></title><description><![CDATA[The quickest way to your own downfall is to stop examining yourself and start believing you're better than you are. A journal entry for me, and for my sons.]]></description><link>https://cedricsarigumba.com/posts/am-i-using-my-ego-or-is-it-using-me</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/am-i-using-my-ego-or-is-it-using-me</guid><pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;“Take care that you are not made into a Caesar, not dyed with the purple; for it can happen.”
 &lt;em&gt;Marcus Aurelius, Meditations 6.30&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
