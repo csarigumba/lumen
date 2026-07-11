@@ -17,7 +17,7 @@ I spawn a lot of AI coding agents at work. Some finish with barely any guidance.
 
 I used to blame the prompt. I would rewrite the instructions, add context, and try again. But an agent can receive a detailed task and still struggle if the codebase is difficult to navigate.
 
-I recently came across an idea from Matt Pocock that stayed with me: every agent enters the codebase like a new starter with no memory. It is a little like the main character in _Memento_ walking in each morning and asking, "What am I doing here?"
+One mental model has stayed with me: every agent enters the codebase like a new starter with no memory. It is a little like the main character in _Memento_ walking in each morning and asking, "What am I doing here?"
 
 The codebase itself is the real prompt.
 
