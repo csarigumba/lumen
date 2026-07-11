@@ -14,7 +14,7 @@ description: "AI agents enter your codebase like a new hire whose onboarding res
 socialImage: "./image1.png"
 ---
 
-I spawn a lot of AI coding agents at work. Some finish with barely any guidance. Others get lost, change the wrong thing, or return code that works only after I patch it together.
+I spawn a lot of AI coding agents. Some finish with barely any guidance. Others get lost, change the wrong thing, or return code that works only after I patch it together.
 
 I used to blame the prompt. I would rewrite the instructions, add context, and try again. But an agent can receive a detailed task and still struggle if the codebase is difficult to navigate.
 
