@@ -30,7 +30,7 @@ That new starter creates three costs.
 
 First, the feedback loop is slow. The agent reads files and traces dependencies before it can make a useful change. Slow tests stretch that loop further.
 
-Second, navigation is hard. What looks like a clear architecture to me may look like hundreds of equally important files to an agent. It cannot tell the normal path from the remains of a migration three years ago.
+Second, navigation is hard. What looks like a clear architecture to me may look like hundreds of equally important files to an agent. It cannot tell which path is current and which code is outdated.
 
 Third, I become the integration layer. I fix imports, move logic, and patch missed edge cases. Do that often enough and the productivity gain starts to look suspiciously like extra work.
 
