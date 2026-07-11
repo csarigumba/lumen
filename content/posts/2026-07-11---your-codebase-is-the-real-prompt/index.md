@@ -11,6 +11,7 @@ tags:
   - "Software Architecture"
   - "Spring Boot"
 description: "AI agents enter your codebase like a new hire whose onboarding resets each morning. Here's why deep modules, not better prompts, are what make them useful, with a Spring Boot example."
+socialImage: "./image1.png"
 ---
 
 I spawn a lot of AI coding agents at work. Some finish with barely any guidance. Others get lost, change the wrong thing, or return code that works only after I patch it together.
@@ -20,6 +21,8 @@ I used to blame the prompt. I would rewrite the instructions, add context, and t
 Every agent enters the codebase like a new hire whose onboarding resets each morning. It has the skills, but none of yesterday's context.
 
 The codebase itself is the real prompt.
+
+![An AI coding agent choosing between a tangled web of shallow files and a deep module with one clear interface.](./image1.png)
 
 ## Starting From Zero
 
