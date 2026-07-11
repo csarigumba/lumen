@@ -10,14 +10,14 @@ tags:
   - "AI"
   - "Software Architecture"
   - "Spring Boot"
-description: "AI agents treat your codebase like a new hire with amnesia. Here's why deep modules, not better prompts, are what make them useful, with a Spring Boot example."
+description: "AI agents enter your codebase like a new hire whose onboarding resets each morning. Here's why deep modules, not better prompts, are what make them useful, with a Spring Boot example."
 ---
 
 I spawn a lot of AI coding agents at work. Some finish with barely any guidance. Others get lost, change the wrong thing, or return code that works only after I patch it together.
 
 I used to blame the prompt. I would rewrite the instructions, add context, and try again. But an agent can receive a detailed task and still struggle if the codebase is difficult to navigate.
 
-One mental model has stayed with me: every agent enters the codebase like a new starter with no memory. It is a little like the main character in _Memento_ walking in each morning and asking, "What am I doing here?"
+Every agent enters the codebase like a new hire whose onboarding resets each morning. It has the skills, but none of yesterday's context.
 
 The codebase itself is the real prompt.
 
