@@ -215,4 +215,4 @@ Clear boundaries, encapsulation, stable interfaces, and fast tests have helped h
 
 Better prompts still help. But when I repeatedly explain the same architecture to an agent, I now wonder whether that context belongs in the codebase.
 
-I am designing for the next person who has to read the code. That person just happens to show up twenty times a day now.
+Clear code is easier for both people and AI agents to understand.
