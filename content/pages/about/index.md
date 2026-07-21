@@ -4,18 +4,12 @@ template: "page"
 socialImage: "./image.jpg"
 ---
 
-## About this blog
+My name is Cedric Sarigumba. I'm a software engineer living in Cebu, Philippines, with my wife and two sons.
 
-This blog is about programming, philosophy, or any interesting things I want to share. I write down what I've learned from building systems and making decisions, and document knowledge for others to learn from, and for myself to look back on 30 years from now.
+I write about software engineering, philosophy, and anything in between. I've spent years helping teams build better systems and move faster, and along the way picked up lessons that went beyond code: about work, choices, and figuring things out as I go.
 
-## About me
+Writing things down is how I make sense of what I've learned. This blog is for anyone it might help, but mostly it's for myself to look back on 30 years from now, and for my sons to know me a little better than a father usually gets to be known.
 
-I'm a software engineer. I live in Cebu, Philippines, with my wife and two sons.
+I use AI to help proofread these posts; the thoughts and experiences behind every one are entirely my own.
 
-I've spent years helping teams build better systems and move faster. Along the way, I picked up lessons that went beyond just code: about work, choices, and figuring things out as I go.
-
-I write about software engineering, philosophy, and anything in between. If something here helps even one person solve a problem faster, that's reason enough to write it down.
-
-I use generative AI to help proofread and improve the articles on this blog. I believe in being transparent about using these tools. They help me communicate my ideas more clearly, but the thoughts and experiences behind every post are entirely my own.
-
-Outside of work, I spend my time cycling or somewhere outdoors with my family.
+Outside of work, you'll find me cycling or somewhere outdoors with my family.
