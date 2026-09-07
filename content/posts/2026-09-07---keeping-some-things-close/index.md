@@ -2,7 +2,7 @@
 title: "Keeping Some Things Close"
 date: "2026-09-07T00:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/posts/keeping-some-things-close"
 category: "Personal Development"
 tags:
