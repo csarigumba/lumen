@@ -1,8 +1,8 @@
 ---
 title: "Setting Up Hermes on a Secure VPS"
-date: "2026-09-08T00:00:00.000Z"
+date: "2026-09-10T00:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/posts/setting-up-hermes-on-a-secure-vps"
 category: "Developer Tools"
 tags:
