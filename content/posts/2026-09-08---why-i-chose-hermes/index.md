@@ -1,8 +1,8 @@
 ---
 title: "Why I Chose Hermes as My Personal Agent"
-date: "2026-09-08T00:00:00.000Z"
+date: "2026-09-11T00:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/posts/why-i-chose-hermes"
 category: "Developer Tools"
 tags:
@@ -19,6 +19,8 @@ I was not looking for another chat window.
 ChatGPT and Claude Code are both useful to me. One is good for thinking through ideas. The other is excellent when I need to work inside a codebase. But most of my life does not begin and end with a prompt or a repository. It is a stream of notes, small decisions, recurring tasks, things I want to learn, and thoughts I do not want to lose before I have time to make sense of them.
 
 That is why I chose [Hermes](https://hermes-agent.nousresearch.com/).
+
+I have also written about [setting up Hermes on a secure VPS](/posts/setting-up-hermes-on-a-secure-vps/). That post covers the practical side. This one is about why I wanted a personal agent in the first place.
 
 I wanted an agent I could treat more like a personal assistant than a fresh conversation. One that could retain useful context over time, work with the tools I already use, and do small pieces of real work instead of only telling me how I might do them.
 
