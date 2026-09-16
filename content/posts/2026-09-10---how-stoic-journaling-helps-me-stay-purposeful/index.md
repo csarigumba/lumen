@@ -1,8 +1,8 @@
 ---
 title: "How Stoic Journaling Helps Me Stay Purposeful"
-date: "2026-09-10T00:00:00.000Z"
+date: "2026-09-16T00:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/posts/how-stoic-journaling-helps-me-stay-purposeful"
 category: "Personal Development"
 tags:
