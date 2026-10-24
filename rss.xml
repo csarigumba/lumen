@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Sep 2026 16:46:41 GMT</lastBuildDate><item><title><![CDATA[How Stoic Journaling Helps Me Stay Purposeful]]></title><description><![CDATA[A short Stoic journal helps me meet ordinary problems with more attention and spend the day on what I can control.]]></description><link>https://cedricsarigumba.com/posts/how-stoic-journaling-helps-me-stay-purposeful</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-stoic-journaling-helps-me-stay-purposeful</guid><pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most days do not fall apart because of one big problem. They get pulled apart by small things.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 Oct 2026 02:26:04 GMT</lastBuildDate><item><title><![CDATA[Everything Is Interpretation]]></title><description><![CDATA[When it rains before my morning run, how I read it decides the rest of my day. A note for me, and for my sons.]]></description><link>https://cedricsarigumba.com/posts/everything-is-interpretation</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/everything-is-interpretation</guid><pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“Remember that all is opinion, and opinion is in thy power.”
+&lt;em&gt;Marcus Aurelius, Meditations 12.22&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/198d82dc5b3025b19d7cbaf2cde1bdf7/5b6ee/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVR42gGfAmD9AHWVsXqZtHaXs26QrnSXtHiat3WXtHOVsm6Rr2iLqmOGpmCDpFp8nVd5mmV8lmh7kVBxkkdrjT9khjpfgQCAn7mNqsGGpL17m7Z1lrNylLF0lrN6mrVyk7FwkrBmiKdggKBffZtkepaumpKkkolJZIJEZoY8YYM4XH0AX32ZY4CcY4GeY4OgYYKgXX+fXX+gYoSlW32dXX6eXHubXXqXYnmTdn6Qk4eMe32MU2Z9RWF9PF+BOVx9AGB5lF96lWB7l2F8mWB9m2F+nGF/nUlgd1t7mlh3l1d0k1l0kV1zjmVzimRxiF1uiE5ieUZgekJigjZUbgCVnKahpaynq7CiqK+Qm6h7jqJle5IZIitNZX1de5lWco9XcY5XcItZbYdWaoVRaYRIX3lBW3QrPU8VGh8AkZOcnZyiqaSmpaKlop+jqKSqYGRvAAULLThFZn6aWXOQVXCNUWyIUGmFTGSASGOANkpdISw3GCAoDAwNAFBrh1Jsh1JrhlJriFNrh1lxjTlKXQgOFSIuPEthekxlgD5ZdEBXcD9UbDtRaUFNXikvNh8iJBsdHg4RFQAcJjEeKTQdKDIdKjUdLTobKTYiMUAXGh8mMj8uPk82Rlg6SltHTlxITl1zY1ybeV5ZS0g2MjIkJysVFxsAERkgGyUuHigyJC47Mz9NOkdWOUdXNTxHPEtfP1RtP1VvQVZvQE9jQktdo39dzJtkU0dGOzc5JCkuHiYsADVEVUlVZVFaaEtYaFJebk9dbkNTZikzQDNFWTZLZDNHXzVIXjhGVz5DUJZ0VbiLWj46PS8zOSorLhscHgA5Sl48TF5FVGU/T2E+TmA5S18xQlYcJjAjMkEpO08qPE8sPVAyPU00OUSPbk7JlFpDODYnLDMkJysfHBpLZvr7d/YaIAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/198d82dc5b3025b19d7cbaf2cde1bdf7/8ac56/image1.webp 240w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/d3be9/image1.webp 480w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/e46b2/image1.webp 960w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/f992d/image1.webp 1440w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/b47ac/image1.webp 1672w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/198d82dc5b3025b19d7cbaf2cde1bdf7/8ff5a/image1.png 240w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/e85cb/image1.png 480w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/d9199/image1.png 960w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/07a9c/image1.png 1440w,
+/static/198d82dc5b3025b19d7cbaf2cde1bdf7/5b6ee/image1.png 1672w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/198d82dc5b3025b19d7cbaf2cde1bdf7/d9199/image1.png&quot;
+            alt=&quot;A runner standing still on a wet seaside road before dawn, arms open to the rain under a single streetlamp&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I usually run at around 5 a.m. Some mornings, it rains.&lt;/p&gt;
+&lt;p&gt;When that happens, I have two options. I can let it put me in a bad mood, or I can accept it and continue with something else.&lt;/p&gt;
+&lt;p&gt;I believe the impression is everything here. If I treat the rain as bad, the mood does not stay in that moment. It carries into the next hours, and sometimes into the next days.&lt;/p&gt;
+&lt;p&gt;But I can also read it as a blessing. I can enjoy the rain, run in it anyway, or use the time for other tasks.&lt;/p&gt;
+&lt;h2 id=&quot;the-event-doesnt-hurt-you-your-reading-does&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-event-doesnt-hurt-you-your-reading-does&quot; aria-label=&quot;the event doesnt hurt you your reading does permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The event doesn’t hurt you, your reading does&lt;/h2&gt;
+&lt;p&gt;Marcus Aurelius borrowed a line from a Cynic philosopher, that everything is interpretation. How I feel depends on how I read the rain.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Take away thy opinion, and then there is taken away the complaint, ‘I have been harmed.’ Take away the complaint, ‘I have been harmed,’ and the harm is taken away.”
+&lt;em&gt;Meditations 4.7&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On a rainy morning, my first impression says “this is bad”. If I believe it without checking, the rest of my morning follows that reading.&lt;/p&gt;
+&lt;h2 id=&quot;your-readings-shape-who-you-become&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-readings-shape-who-you-become&quot; aria-label=&quot;your readings shape who you become permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your readings shape who you become&lt;/h2&gt;
+&lt;p&gt;A single reading is small. The readings I repeat every day add up.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.”
+&lt;em&gt;Meditations 5.16&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If I keep reading small things as bad, I become someone who is easily upset. If I keep accepting them and moving on, I become calmer. My mind takes the shape of the thoughts I let stay.&lt;/p&gt;
+&lt;h2 id=&quot;even-the-hard-things&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#even-the-hard-things&quot; aria-label=&quot;even the hard things permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Even the hard things&lt;/h2&gt;
+&lt;p&gt;I think this applies to grief, injustice, and physical pain too. They are harder to read well, but they are still interpretation.&lt;/p&gt;
+&lt;p&gt;With proper tuning of the mind, I can see a hard situation clearly and then choose the necessary action, instead of reacting to my first impression of it.&lt;/p&gt;
+&lt;h2 id=&quot;the-pause&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-pause&quot; aria-label=&quot;the pause permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The pause&lt;/h2&gt;
+&lt;p&gt;My practice is to pause before responding.&lt;/p&gt;
+&lt;p&gt;When something happens, I remind myself that this is just an initial impression, and I don’t need to react automatically.&lt;/p&gt;
+&lt;p&gt;That pause can be a couple of seconds or a few minutes. I use it to look at my emotion and at what is really happening, and then I decide on the proper action.&lt;/p&gt;
+&lt;p&gt;It is a simple habit, but I find it very powerful.&lt;/p&gt;
+&lt;h2 id=&quot;to-my-sons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#to-my-sons&quot; aria-label=&quot;to my sons permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;To my sons&lt;/h2&gt;
+&lt;p&gt;You will have your own rainy mornings. Some will be actual rain, and some will be harder things.&lt;/p&gt;
+&lt;p&gt;When something feels bad, pause first. Remind yourself that it is only your first impression. Then decide how to read it and what to do next.&lt;/p&gt;
+&lt;p&gt;Be careful which thoughts you keep, because over time, your mind takes their shape.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How Stoic Journaling Helps Me Stay Purposeful]]></title><description><![CDATA[A short Stoic journal helps me meet ordinary problems with more attention and spend the day on what I can control.]]></description><link>https://cedricsarigumba.com/posts/how-stoic-journaling-helps-me-stay-purposeful</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/how-stoic-journaling-helps-me-stay-purposeful</guid><pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Most days do not fall apart because of one big problem. They get pulled apart by small things.&lt;/p&gt;
 &lt;p&gt;A message arrives at the wrong time. A meeting moves slowly. A plan changes. Someone is in a bad mood. I feel myself getting impatient, then I let that impatience decide what happens next.&lt;/p&gt;
 &lt;p&gt;A short Stoic journal gives me a place to interrupt that pattern.&lt;/p&gt;
 &lt;h2 id=&quot;before-the-day-starts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#before-the-day-starts&quot; aria-label=&quot;before the day starts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Before the day starts&lt;/h2&gt;
