@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 Oct 2026 02:26:04 GMT</lastBuildDate><item><title><![CDATA[Everything Is Interpretation]]></title><description><![CDATA[When it rains before my morning run, how I read it decides the rest of my day. A note for me, and for my sons.]]></description><link>https://cedricsarigumba.com/posts/everything-is-interpretation</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/everything-is-interpretation</guid><pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Oct 2026 01:20:05 GMT</lastBuildDate><item><title><![CDATA[Your Opinion of Yourself Matters More Than a Stranger's]]></title><description><![CDATA[We love ourselves more than anyone, yet care more about other people's opinion of us than our own. Why I try to keep my tone direct, and the question I ask when I want someone's praise.]]></description><link>https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</guid><pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.”
+&lt;em&gt;Marcus Aurelius, Meditations 12.4&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0155d58eee679a4ffff8becd07aef8fe/2bef9/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAChElEQVR42g2QS2/SAACAm7jLsuwNjMl4lEdLoS30CS20lGdbKG0ppeM5hA3FDTOS7WJmFo0/wJvJ9GI8eNJ4MPG8xJsH7yZ68J9I8h2/7/IBIILh2QJTarh8QZzJxQnWGl/wFU21RzVr9Oruy+ef/z79+PPx/veH+7+3776Zp1fa8EJs9gIJAggnUrRQYSrGjtuLMgLGFTPlptSw7fFFZ7KQj8+04dOXd1/ff/+1uH0jase8pJAsX24NwxgNhNF0pqgK+vAhGMO4chSjAADAmXzv/Lk+WfJVnRfLdEFuz2/IrBiAcb7S5ItKs3cWWZlgAhdkQzJHijN1Hl/LZh8B/boqO92RqhmqNdS15knHMpRyliSyOVGp1rAUqXcnKJMDoBRdUK1y+1FzMG8cT6qtQbMzwlAsnSJMtZHA0gQnmYoyd1SlIjstqyQK/iNfXbNwKguAcJIpyFVnWq5bJF9ACZrj82AE2nR5Y1FofXNnfdfNixVJbSWpLMrmA2DE6/WUSnIyzQDReGIVsJJKcyJKZlA8TVG0yLI0SbO8FEqSlKT2zpZGbxqncxCRCcMIDMfzYjkEIYA/FIojCVasgTEYQlAsmYz4PHk4MNNrJ6eL+mBuTi7t2bU2eFJqjwWtu5pXrZsZTnT7/MC+LxhFsFAsvrm75w+EkDjMYfFxTXht58dOp6g5dEHhVFsdnue0fk61TcPpGHaKyniCEWDLc+gKRI4i8IO1ta3t7UPvARIOyCloWiTGHWfRM96+WM5ml93ZVff8ptgaUSxflUo5oeQ+CgLrO/sbe65t18HWvsftB8FEisiKvCSvUBrtvqk/G4+c7qTRPTUnS6U/J4t1lBUgnN7Ydf0H6eKoZ6rj4lIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/0155d58eee679a4ffff8becd07aef8fe/8ac56/image1.webp 240w,
+/static/0155d58eee679a4ffff8becd07aef8fe/d3be9/image1.webp 480w,
+/static/0155d58eee679a4ffff8becd07aef8fe/e46b2/image1.webp 960w,
+/static/0155d58eee679a4ffff8becd07aef8fe/a9a89/image1.webp 1024w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/0155d58eee679a4ffff8becd07aef8fe/8ff5a/image1.png 240w,
+/static/0155d58eee679a4ffff8becd07aef8fe/e85cb/image1.png 480w,
+/static/0155d58eee679a4ffff8becd07aef8fe/d9199/image1.png 960w,
+/static/0155d58eee679a4ffff8becd07aef8fe/2bef9/image1.png 1024w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/0155d58eee679a4ffff8becd07aef8fe/d9199/image1.png&quot;
+            alt=&quot;A Roman man writing alone on a wax tablet by an oil lamp, while a crowd gathers around an orator in the Forum behind him&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes I forget that my own opinion matters more than other people’s.&lt;/p&gt;
+&lt;p&gt;When that happens, I start changing my tone. I become more rhetorical, without realizing that a simple and direct approach is still the best one.&lt;/p&gt;
+&lt;h2 id=&quot;changing-my-tone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#changing-my-tone&quot; aria-label=&quot;changing my tone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Changing my tone&lt;/h2&gt;
+&lt;p&gt;Sometimes it is politics. Sometimes I do not want the other person to feel weird about my tone or my intention.&lt;/p&gt;
+&lt;p&gt;Some of that is good. I work with other people, so I should think about how to communicate with them properly.&lt;/p&gt;
+&lt;p&gt;But I should not go as far as changing my intention or my originality just so other people feel comfortable.&lt;/p&gt;
+&lt;h2 id=&quot;whose-opinion-i-listen-to&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#whose-opinion-i-listen-to&quot; aria-label=&quot;whose opinion i listen to permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Whose opinion I listen to&lt;/h2&gt;
+&lt;p&gt;What is worse is chasing praise from people I do not even respect.&lt;/p&gt;
+&lt;p&gt;I listen closely to people who walk the path of philosophy, who study it, practice it, and try to become the best version of themselves. I also listen to people whose judgment I trust.&lt;/p&gt;
+&lt;p&gt;Chasing praise from people outside that circle, people who are not trying to grow, is futile. It is not worth my time.&lt;/p&gt;
+&lt;h2 id=&quot;a-constant-battle&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-constant-battle&quot; aria-label=&quot;a constant battle permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A constant battle&lt;/h2&gt;
+&lt;p&gt;I cannot deny that I want a better life. Part of me wants power, money, and even fame.&lt;/p&gt;
+&lt;p&gt;Marcus saw the same pull in himself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Or does the desire of empty fame torment thee? see how soon everything is forgotten, and look at the chaos of infinite time on each side of the present, and the emptiness of applause, and the changeableness and want of judgement in those who pretend to give praise.”
+&lt;em&gt;Meditations 4.3&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For me, it is a constant battle with myself. I keep reminding myself that these things are not worth it in this life.&lt;/p&gt;
+&lt;p&gt;What is worth it is becoming the best version of myself by practicing philosophy, being kind to others, and accomplishing what philosophy, and what God, want me to be.&lt;/p&gt;
+&lt;h2 id=&quot;the-question-i-ask&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-question-i-ask&quot; aria-label=&quot;the question i ask permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The question I ask&lt;/h2&gt;
+&lt;p&gt;When I notice myself wanting someone’s approval, I pause and ask: what is my intention here?&lt;/p&gt;
+&lt;p&gt;If the answer is that I am seeking their praise or their favor, and I am willing to change my thoughts, my fundamentals, or my philosophy to get it, then I know it is wrong.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Everything Is Interpretation]]></title><description><![CDATA[When it rains before my morning run, how I read it decides the rest of my day. A note for me, and for my sons.]]></description><link>https://cedricsarigumba.com/posts/everything-is-interpretation</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/everything-is-interpretation</guid><pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;“Remember that all is opinion, and opinion is in thy power.”
 &lt;em&gt;Marcus Aurelius, Meditations 12.22&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
