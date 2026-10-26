@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Oct 2026 01:20:05 GMT</lastBuildDate><item><title><![CDATA[Your Opinion of Yourself Matters More Than a Stranger's]]></title><description><![CDATA[We love ourselves more than anyone, yet care more about other people's opinion of us than our own. Why I try to keep my tone direct, and the question I ask when I want someone's praise.]]></description><link>https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</guid><pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cedric Sarigumba]]></title><description><![CDATA[Cedric Sarigumba]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 26 Oct 2026 06:54:59 GMT</lastBuildDate><item><title><![CDATA[Walk the Talk]]></title><description><![CDATA[Some thoughts on why people find it easier to follow a leader who applies what he preaches, and why I see leading as a privilege to serve.]]></description><link>https://cedricsarigumba.com/posts/walk-the-talk</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/walk-the-talk</guid><pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fffaeaa25e8ee609c01095977e40fe62/2bef9/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVR42gGfAmD9AO/o2vz05/z26v/57bOuoZSOgp6WiKKZirGlk+/o2//77/z47P767//78P/88fv26ufbyfHo2ffy5NrPvQCRjYDOx7jb1Mfs49W6tKaclYjIv7C9saDBsJv28OL++e358ub68uP069zz69zk1cDKtp3BrZS1oYmZhnAAd21fmpWJsaiaxLqqtKucrqGQ8+bT5tzJem9gfHRn+fDd9OnX08Gt28q13sy2xbCYt6OMoYtwg25WdWdVAGhSO4JxXJWEcKSSfKebioRxXZ2Me4ZoXVIuJWdQQLeolKyYgjgtIm5eTuLFpcKkhL6gf6WMb4N2ZnFpXgBmUDxnUDqBalJwYU5sW0t4Y1JTMy1FFA9KLSW3oouqkHVfRS9jSTRNPS+Ld1+3nX/CpIWOd19jVUVfUUEAYVlNZFhJaltLTUI1WEQ0Xj81RxsVOxgSMSkgj4Bum4p2jHVcjHNZMyYbSDkqdWJNf2lRXko2XEo3Sj4xAFlMPmNUQmpWQIJwXGpSRkoeGUAYEzYbE2FPQHJWRaqah72qk4x5ZCYbEDMqIEM3Km9cSGpYRUU5LTUtJAB0ZVR+Y0l+bFepmYVdPDE0Dwo1FA5EMiWEalZwVEKZgmy0o46ZhnM6Kx4kHhYtJBp3ZlSNe2dvX05XTkMATD8yYFNFa2RYd2hYQCIaIxEKLBsSQjswY1A/UkAxWUc4Z1pLZ1hJPy8iHhcPJx4VXFFEV09FU01DR0Q8AE9GO0M9NUc+MzooHyQXEB4YECcdFDQoHjQpHTApICsoIjYrITwuISIaESATCyIbEz83LUU7MDs1LTcyKgBmVEFsWkdjVUZBODA1MSo8Ni5EPTNUSDtdT0BpWUhtWkZnVkRLQzlAOzNHQDdNQjZpVUJqV0NwW0ZnVUIfTR+y4BxYrAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/fffaeaa25e8ee609c01095977e40fe62/8ac56/image1.webp 240w,
+/static/fffaeaa25e8ee609c01095977e40fe62/d3be9/image1.webp 480w,
+/static/fffaeaa25e8ee609c01095977e40fe62/e46b2/image1.webp 960w,
+/static/fffaeaa25e8ee609c01095977e40fe62/a9a89/image1.webp 1024w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/fffaeaa25e8ee609c01095977e40fe62/8ff5a/image1.png 240w,
+/static/fffaeaa25e8ee609c01095977e40fe62/e85cb/image1.png 480w,
+/static/fffaeaa25e8ee609c01095977e40fe62/d9199/image1.png 960w,
+/static/fffaeaa25e8ee609c01095977e40fe62/2bef9/image1.png 1024w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/fffaeaa25e8ee609c01095977e40fe62/d9199/image1.png&quot;
+            alt=&quot;A Roman leader in a red cloak kneeling beside a young worker, setting a paving stone together on a half-built road&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I’ve been thinking about what makes people willing to follow someone.&lt;/p&gt;
+&lt;p&gt;From what I’ve seen, it gets a lot easier when people can see that the person leading them applies what he preaches. When a leader asks the team to do something and they can see him doing it too, the ask feels fair, like something we’re doing together.&lt;/p&gt;
+&lt;p&gt;It’s harder when a leader keeps asking for things he doesn’t know how to do himself. Even when the request is reasonable, people start to wonder whether he understands what he’s asking for.&lt;/p&gt;
+&lt;p&gt;I’ve been on both sides of this. I’ve followed leaders who asked for things they couldn’t do themselves, and I’ve also tried to lead by doing the work first so people could see it.&lt;/p&gt;
+&lt;h2 id=&quot;what-this-looks-like-for-me&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-this-looks-like-for-me&quot; aria-label=&quot;what this looks like for me permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What this looks like for me&lt;/h2&gt;
+&lt;p&gt;When I want the team to start using a new tool or process, I try it myself first. That way, I understand what I’m asking them to do, and I can help when they get stuck. The team can also see that I use it myself.&lt;/p&gt;
+&lt;p&gt;I also try to do the boring work alongside them. Some work is boring and still needs to get done, and I’d rather share it than only hand it out.&lt;/p&gt;
+&lt;h2 id=&quot;you-dont-need-to-be-the-best-at-everything&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#you-dont-need-to-be-the-best-at-everything&quot; aria-label=&quot;you dont need to be the best at everything permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;You don’t need to be the best at everything&lt;/h2&gt;
+&lt;p&gt;Walking the talk doesn’t mean a leader has to be better than everyone at every job, which would be impossible anyway.&lt;/p&gt;
+&lt;p&gt;On most teams, the specialists will be better than me at their own work. What I think a leader needs is enough knowledge to understand the work, and the willingness to do a share of it.&lt;/p&gt;
+&lt;h2 id=&quot;it-applies-at-home-too&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#it-applies-at-home-too&quot; aria-label=&quot;it applies at home too permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;It applies at home too&lt;/h2&gt;
+&lt;p&gt;This also applies to being a father. If I ask my sons to do something I don’t do myself, I can’t expect them to find it easy to follow me.&lt;/p&gt;
+&lt;h2 id=&quot;a-privilege-to-serve&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-privilege-to-serve&quot; aria-label=&quot;a privilege to serve permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A privilege to serve&lt;/h2&gt;
+&lt;p&gt;All of this is why I see leadership as a privilege to serve rather than a privilege to rule.&lt;/p&gt;
+&lt;p&gt;Having the role doesn’t mean I get to hand out work and step back. For me, it means showing the people I lead what I’m asking for through my own work, and helping them do theirs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Your Opinion of Yourself Matters More Than a Stranger's]]></title><description><![CDATA[We love ourselves more than anyone, yet care more about other people's opinion of us than our own. Why I try to keep my tone direct, and the question I ask when I want someone's praise.]]></description><link>https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</link><guid isPermaLink="false">https://cedricsarigumba.com/posts/your-opinion-of-yourself-matters-more</guid><pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;“I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.”
 &lt;em&gt;Marcus Aurelius, Meditations 12.4&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
