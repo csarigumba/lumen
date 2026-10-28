@@ -11,7 +11,10 @@ tags:
   - "Testing"
   - "Career"
 description: "AI can get a feature most of the way there quickly. Here's what sits in the last part on my projects, and how my team tries to finish it on purpose instead of finding it in production."
+socialImage: "./image1.png"
 ---
+
+![A worker inspecting the last unfinished joint of a steel bridge that robotic arms built most of the way across a river](./image1.png)
 
 I've been reading Addy Osmani's [Beyond Vibe Coding](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/), and one chapter put a name on something I see every week. He calls it the 70% problem.
 
